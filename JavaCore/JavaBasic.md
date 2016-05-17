@@ -283,3 +283,41 @@ c) Static are accessed using ClassName.varName
 
 ###56. How does Java handle integer overflows and underflows?
 
+Main Method
+---
+
+###1. Can an application have multi classes having main method?
+
+Yes, it can. But only one main method can be used as entrance point for the program.
+
+###2. Can I have multiple main methods in the same class?
+
+No, if you mean `public static void main(String[] args)`.
+Yes, if you mean a method with a name "main" and any other signatures.
+
+###3. What if the main method is declared as private?
+
+The class will compile but the method cannot be used as an entrance point.
+
+###4. What if the static modifier is removed from the signature of the main method?
+
+It become an instance method. No longer an entrance point but just a valid regular method.
+
+###5. What if I do not provide the String array as the argument to the method?
+
+You just define a static method called "main" with no parameters. It cannot be used as entrance point.
+
+###6. What is the first argument of the String array in main method?
+
+These are the parameters passed to the program from command line.
+
+###7. If I do not provide any arguments on the command line, then the String array of Main method will be empty or null?
+
+Array of size 0
+
+###8. Can main method be declared final?
+Yes it can be declared as final
+
+Reference
+---
+[svozniuk-repo](https://raw.githubusercontent.com/svozniuk/java-interviews/master/Java%20Core/Java%20Basics.md)
