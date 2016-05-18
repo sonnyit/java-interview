@@ -70,3 +70,9 @@ LinkedList -- slow random access. Implement Queue interface. Fast deletion of th
 If lots of random reads is anticipated use ArrayList.
 
 If lots of iterations over the whole list and lots of add/delete -- use LinkedList.
+
+###8. TreeSet and LinkedHashSet
+
+LinkedHashSet is backed by LinkedHashMap. LinkedHashMap is backed by doubly linked list to enforce ordering on the elements contained in the Map.
+
+If the ordering of the elements in the Set matters to you but you don't want to use a comparator you may use LinkedHashSet since it will enforce ordering in which the elements were added to the set. Otherwise use TreeSet
