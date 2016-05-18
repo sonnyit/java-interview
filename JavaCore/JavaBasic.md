@@ -232,9 +232,15 @@ If field is declared with volatile keyword then any thread that reads the field 
 
 ###47. What is the difference between overloading and overriding?
 
-overloading -- adding a method with the same name but different signature
+***overloading*** -- adding a method with the same name but different signature
 
-overriding -- changing the method implementation in the subclass
+* Method overloading in Java occurs when two or more methods in the same class have the exact same name but different parameters.
+* Overloading happens at compile time
+
+***overriding*** -- changing the method implementation in the subclass
+
+* An overridden method would have the exact same method name, return type, number of parameters and types of parameters as the method in parent class.
+* The only difference would be the defination of the method.
 
 ###48. What is meant by Inheritance and what are its advantages?
 
