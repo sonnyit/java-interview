@@ -201,6 +201,9 @@ More info on this topic can be found here: <http://blog.codecentric.de/en/2011/0
 
 ###42. What is casting?
 
+changing the type of the object.
+
+
 ###43. What is the difference between an argument and a parameter?
 
 parameter -- abstract. argument -- concrete value of the parameter.
