@@ -2,6 +2,7 @@ Java Concurrency
 ---
 
 List questions:
+
 1. [Describe synchronization in respect to multi-threading. What is synchronization?](#1-describe-synchronization-in-respect-to-multi-threading-what-is-synchronization)
 2. [Explain different ways of using thread?](#2-explain-different-ways-of-using-thread)
 20. [What are Callable and FutureTask interfaces?](#20-what-are-callable-and-futuretask-interfaces)
