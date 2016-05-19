@@ -4,7 +4,7 @@ Java Basics
 
 An Interface is a Class with no implementation. You can not create an object from an interface as it has no implementation or fields. (Interface can contain only public static final fields)
 
-An Abstract Class is another type of Class. It may have some methods which have not been implemented (which will be labelled *abstract*), but it may also have some methods which have been implemented. Abstract Class also can not be used to create an object, as some implementation code will be missing. (Abstract class can contain regular class fields)
+An Abstract Class is another type of Class. It may have some methods which have not been implemented (which will be labeled *abstract*), but it may also have some methods which have been implemented. Abstract Class also can not be used to create an object, as some implementation code will be missing. (Abstract class can contain regular class fields)
 
 An object can only be instantiated based on a full class (not abstract, not an interface). In Java, a class can implement between *zero or many interfaces*, or it can extend *zero or one abstract or concrete class* only.
 
@@ -103,7 +103,7 @@ No. Unless it is a nested class public class.
 
 13
 
-###24. What will be the default values of all the elements of an array defined as an instance variable?
+### 24. What will be the default values of all the elements of an array defined as an instance variable?
 
 All elements will be initialized to default value of corresponding type.
 
@@ -141,15 +141,15 @@ Immutability: the state of the object doesn't change
 
 ###31. Is it enough to define this class as final? To make this class immutable?
 
-No. If the class is declared final it only means that it cannot be subclassed. 
+No. If the class is declared final it only means that it cannot be subclassed.
 
-If the instance of the class is declared to be final it only means that the reference will not change. 
+If the instance of the class is declared to be final it only means that the reference will not change.
 
 The inner state of the object in both cases can change.
 
 ###32. Besides “String” do you know any other immutable classes?
 
-###33. Increasing/decreasing of methods visibility (inheritance)**
+###33. Increasing/decreasing of methods visibility (inheritance)
 
 The main rule is that visibility cannot be reduced in the subclass
 
@@ -168,9 +168,9 @@ Each object the garbage collector meets is marked as being used, and will not be
 ###36. How is the virtual space divided in Java?
 
  [stackoverflow](http://stackoverflow.com/questions/1262328/how-is-the-java-memory-pool-divided)
- 
+
  [oracle_java6](http://docs.oracle.com/javase/6/docs/technotes/guides/management/jconsole.html)
- 
+
 ###37. What difference between float and BigDecimal. How they store the data?
 
 float is floating point number and can loose precision during the computations.
@@ -244,7 +244,7 @@ If field is declared with volatile keyword then any thread that reads the field 
 
 ###48. What is meant by Inheritance and what are its advantages?
 
-Inheritance is one of principles of OOP. It allows to create class hierarchies. 
+Inheritance is one of principles of OOP. It allows to create class hierarchies.
 
 Classes can inherit methods and properties from the base classes thus increasing code reuse.
 
@@ -266,7 +266,7 @@ In Java package is a mechanism to oragnize classes into modules.
 
 ###52. What is the difference between Integer and int?
 
-Integer is a wrapper class for int primitive type. 
+Integer is a wrapper class for int primitive type.
 
 Integer can be used in generic collections whereas int cannot.
 
@@ -274,7 +274,7 @@ Also contains a number of utility methods.
 
 ###53. What is a cloneable interface and how many methods does it contain?
 
-Cloneable -- is a marker interface and it doesn't contain any methods. 
+Cloneable -- is a marker interface and it doesn't contain any methods.
 
 It determines the behavior of Object’s protected clone implementation: if a class implements Cloneable, Object’s clone method returns a field-by-field copy of the object; otherwise it throws CloneNotSupportedException
 
