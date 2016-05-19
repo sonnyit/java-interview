@@ -61,6 +61,7 @@ List questions:
 1. [How does Java handle integer overflows and underflows?](#how-does-java-handle-integer-overflows-and-underflows-)
 
 Main methods:
+
 1. [Can an application have multi classes having main method?](#can-an-application-have-multi-classes-having-main-method-)
 1. [Can I have multiple main methods in the same class?](#can-i-have-multiple-main-methods-in-the-same-class-)
 1. [What if the main method is declared as private?](#what-if-the-main-method-is-declared-as-private-)
