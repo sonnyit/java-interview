@@ -247,3 +247,5 @@ References
 * [dzone-top80q](https://dzone.com/articles/threads-top-80-interview)
 
 * [journaldev](http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers)
+
+[go to top](Java-Concurrency)
