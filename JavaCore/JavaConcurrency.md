@@ -1,13 +1,20 @@
 Java Concurrency
 ---
 
+List questions:
+1. [Describe synchronization in respect to multi-threading. What is synchronization?](#1-describe-synchronization-in-respect-to-multi-threading-what-is-synchronization)
+2. [Explain different ways of using thread?](#2-explain-different-ways-of-using-thread)
+20. [What are Callable and FutureTask interfaces?](#20-what-are-callable-and-futuretask-interfaces)
+
+---
+
 ### 1. Describe synchronization in respect to multi-threading. What is synchronization?
 
 Several threads access common data.
 
 In order to keep the data in consistent state the access to it has to be synchronized (i.e. some ordering of data access has to be imposed).
 
-### 2. Explain different ways of using thread?  
+### 2. Explain different ways of using thread?
 
 1. Create a long-running computation in a separate thread so the user interface (or whatever other part of the application) is not blocked.
 2. separate out I/O operations which potentially can take a lot of time (e.g. reading from the network) for the same reason
