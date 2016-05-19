@@ -1,4 +1,4 @@
-Java Concurrency
+## Java Concurrency
 ---
 
 ### 1. Describe synchronization in respect to multi-threading. What is synchronization?
@@ -248,4 +248,4 @@ References
 
 * [journaldev](http://www.journaldev.com/1162/java-multi-threading-concurrency-interview-questions-with-answers)
 
-[go to top](Java-Concurrency)
+[go to top](java-concurrency)
