@@ -4,8 +4,8 @@ Java Basics
 List questions:
 
 1. [What is the difference between an Interface and an Abstract class?](#1-what-is-the-difference-between-an-interface-and-an-abstract-class-)
-1. []()
-1. []()
+1. [What is the purpose of garbage collection in Java, and when is it used?](#2-what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used-)
+1. [What is the different between a constructor and a method?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#3-what-is-the-different-between-a-constructor-and-a-method-)
 1. []()
 1. []()
 1. []()
