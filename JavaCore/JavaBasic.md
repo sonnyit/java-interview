@@ -5,15 +5,15 @@ List questions:
 
 1. [What is the difference between an Interface and an Abstract class?](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
 1. [What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used-)
-1. [What is the different between a constructor and a method?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#3-what-is-the-different-between-a-constructor-and-a-method-)
-1. [State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#4-state-the-significance-of-public-private-protected-default-modifiers-both-singly-and-in-combination-and-state-the-effect-of-package-relationships-on-declared-items-qualified-by-these-modifiers-)
-1. [What is an abstract class?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#5-what-is-an-abstract-class-)
-1. [What is static in java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#6-what-is-static-in-java-)
-1. [What is final?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#7-what-is-final-)
-1. [What is overriding?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#8-what-is-overriding-)
-1. [What are different type of inner classes?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#9-what-are-different-type-of-inner-classes-)
-1. [Can a top level class be private or protected?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#10-can-a-top-level-class-be-private-or-protected-)
-1. [What is the different between declaring a variable and defining a variable?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#11-what-is-the-different-between-declaring-a-variable-and-defining-a-variable-)
+1. [What is the different between a constructor and a method?](#what-is-the-different-between-a-constructor-and-a-method-)
+1. [State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.](#state-the-significance-of-public-private-protected-default-modifiers-both-singly-and-in-combination-and-state-the-effect-of-package-relationships-on-declared-items-qualified-by-these-modifiers-)
+1. [What is an abstract class?](#what-is-an-abstract-class-)
+1. [What is static in java?](#what-is-static-in-java-)
+1. [What is final?](#what-is-final-)
+1. [What is overriding?](#what-is-overriding-)
+1. [What are different type of inner classes?](#what-are-different-type-of-inner-classes-)
+1. [Can a top level class be private or protected?](#can-a-top-level-class-be-private-or-protected-)
+1. [What is the different between declaring a variable and defining a variable?](#what-is-the-different-between-declaring-a-variable-and-defining-a-variable-)
 1. [What type of parameter passing does Java support?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#12-what-type-of-parameter-passing-does-java-support-)
 1. [Give a simplest way to find out the time a method takes for execution without using any profiling tool?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#13-give-a-simplest-way-to-find-out-the-time-a-method-takes-for-execution-without-using-any-profiling-tool-)
 1. [Is Empty .java file a valid source file?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#14-is-empty-java-file-a-valid-source-file-)
@@ -88,39 +88,37 @@ List questions:
 
 2. ##### What is the purpose of garbage collection in Java, and when is it used? [&#10548;](#java-basics)
 
-GC in Java is the mechanism that keeps track of the memory and objects residing in the memory. GC collects the object when it is no longer needed (usually when no references to the object are available).
+  GC in Java is the mechanism that keeps track of the memory and objects residing in the memory. GC collects the object when it is no longer needed (usually when no references to the object are available).
 
-##### 3. What is the different between a constructor and a method? [&#10548;](#java-basics)
+3. ##### What is the different between a constructor and a method? [&#10548;](#java-basics)
 
-##### 4. State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers. [&#10548;](#java-basics)
+3. ##### State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers. [&#10548;](#java-basics)
 
-##### 5. What is an abstract class? [&#10548;](#java-basics)
+5. ##### What is an abstract class? [&#10548;](#java-basics)
 
-An abstract class is a java class that has one or more abstract methods (no body). Abstract class can not be instantiated. Abstract class defines an interface that has to be implemented by all its subclasses.
+  An abstract class is a java class that has one or more abstract methods (no body). Abstract class can not be instantiated. Abstract class defines an interface that has to be implemented by all its subclasses.
 
-##### 6. What is static in java? [&#10548;](#java-basics)
+6. ##### What is static in java? [&#10548;](#java-basics)
+  *static* is java language keyword.
 
-*static* is java language keyword.
+  1. When used with a method defines a method of a class.
+  2. When used with a field defines a class field.
+  3. When used on an nested class declaration defines a static nested class.
+  4. Can be used as a static initialization block.
 
-1. When used with a method defines a method of a class.
-2. When used with a field defines a class field.
-3. When used on an nested class declaration defines a static nested class.
-4. Can be used as a static initialization block.
+7. ##### What is final? [&#10548;](#java-basics)
 
-##### 7. What is final? [&#10548;](#java-basics)
+8. ##### What is overriding? [&#10548;](#java-basics)
 
-##### 8. What is overriding? [&#10548;](#java-basics)
+9. ##### What are different type of inner classes? [&#10548;](#java-basics)
+  * nested class
+  * inner class
+  * local class
+  * anonymous
 
-##### 9. What are different type of inner classes? [&#10548;](#java-basics)
+10. ##### Can a top level class be private or protected? [&#10548;](#java-basics)
 
-* nested class
-* inner class
-* local class
-* anonymous
-
-##### 10. Can a top level class be private or protected? [&#10548;](#java-basics)
-
-No, it is only allowed to be public or have to default access modifier.
+  No, it is only allowed to be public or have to default access modifier.
 
 ##### 11. What is the different between declaring a variable and defining a variable? [&#10548;](#java-basics)
 
