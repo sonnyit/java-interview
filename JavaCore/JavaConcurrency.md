@@ -3,10 +3,10 @@ Java Concurrency
 
 List questions:
 
-1. [Describe synchronization in respect to multi-threading. What is synchronization?](#1-describe-synchronization-in-respect-to-multi-threading-what-is-synchronization)
-1. [Explain different ways of using thread?](#2-explain-different-ways-of-using-thread)
-1. [What is the difference between preemptive scheduling and time slicing?](#3-what-is-the-difference-between-preemptive-scheduling-and-time-slicing)
-1. [When a thread is created and started, what is its initial state?](#4-when-a-thread-is-created-and-started-what-is-its-initial-state)
+1. [Describe synchronization in respect to multi-threading. What is synchronization?](#1-describe-synchronization-in-respect-to-multi-threading-what-is-synchronization-)
+1. [Explain different ways of using thread?](#2-explain-different-ways-of-using-thread-)
+1. [What is the difference between preemptive scheduling and time slicing?](#3-what-is-the-difference-between-preemptive-scheduling-and-time-slicing-)
+1. [When a thread is created and started, what is its initial state?](#4-when-a-thread-is-created-and-started-what-is-its-initial-state-)
 1. [Thread vs Runnable, run() vs start()](#5-thread-vs-runnable-run-vs-start)
 1. [Describe different ways to create a thread.](#6-describe-different-ways-to-create-a-thread)
 1. [Synchronization of Java blocks and methods](#7-synchronization-of-java-blocks-and-methods)
