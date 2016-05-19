@@ -11,7 +11,7 @@ List questions:
 1. [List vs Set vs Map. Purposes and definitions](#6-list-vs-set-vs-map-purposes-and-definitions-)
 1. [Pros and cons of ArrayList and LinkedList](#7-pros-and-cons-of-arraylist-and-linkedlist-)
 1. [TreeSet and LinkedHashSet](#8-treeset-and-linkedhashset-)
-1. [What are the advantages of ArrayList over arrays ?](#9-what-are-the-advantages-of-arraylist-over-arrays--)
+1. [What are the advantages of ArrayList over arrays ?](#9-what-are-the-advantages-of-arraylist-over-arrays-)
 1. [Principle of storing data in a hashtable](#10-principle-of-storing-data-in-a-hashtable-)
 1. [Differences between Hashtable, ConcurrentHashMap and Collections.synchronizedMap()](#11-differences-between-hashtable-concurrenthashmap-and-collectionssynchronizedmap-)
 1. [How are hash codes computed?](#12-how-are-hash-codes-computed-)
