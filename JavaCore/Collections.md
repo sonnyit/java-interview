@@ -24,11 +24,16 @@ Collections
 
 ### 3. Difference between HashMap and HashTable? Can we make HashMap synchronized?
 
-Both implement Map interface. HashTable is synchronized. It is recommended to use HashMap wherever possible. HashTable doesn't allow null keys and values. HashMap allows one null key and any number of null values.
+* Both implement Map interface.
+* HashTable is synchronized. It is recommended to use HashMap wherever possible.
+* HashTable doesn't allow null keys and values.
+* HashMap allows one null key and any number of null values.
 
 We can make it synchronized
 
-	Map m = Collections.synchronizedMap(new HashMap());
+```
+Map m = Collections.synchronizedMap(new HashMap());
+```
 
 ### 4. Difference between Vector and ArrayList?
 
@@ -63,13 +68,13 @@ All three are interfaces.
 
 ### 7. Pros and cons of ArrayList and LinkedList
 
-ArrayList -- fast random access
+> ArrayList -- fast random access
 
-LinkedList -- slow random access. Implement Queue interface. Fast deletion of the element.
+> LinkedList -- slow random access. Implement Queue interface. Fast deletion of the element.
 
-If lots of random reads is anticipated use ArrayList.
 
-If lots of iterations over the whole list and lots of add/delete -- use LinkedList.
+* If lots of random reads is anticipated use ArrayList.
+* If lots of iterations over the whole list and lots of add/delete -- use LinkedList.
 
 ### 8. TreeSet and LinkedHashSet
 
@@ -164,13 +169,13 @@ After:  ... <--> A <--> C <--> B <--> ...
 ```
 A changes one reference, B changes one reference, C assigns two references.
 
-### 21. Can you limit the initial capacity of vector in java?
+### 21. Can you limit the initial capacity of vector in Java?
 
-  I'm not sure if limit is correct word to be used in this question.
+I'm not sure if limit is correct word to be used in this question.
 
-  One can just set the initial capacity of the Vector.
+One can just set the initial capacity of the Vector.
 
-  Well you could say that you are putting lower limit on the size of the Vector.
+Well you could say that you are putting lower limit on the size of the Vector.
 
 ### 22. What method should the key class of Hashmap override?
 
