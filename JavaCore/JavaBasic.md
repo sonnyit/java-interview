@@ -120,60 +120,49 @@ List questions:
 
   No, it is only allowed to be public or have to default access modifier.
 
-##### 11. What is the different between declaring a variable and defining a variable? [&#10548;](#java-basics)
+11. ##### What is the different between declaring a variable and defining a variable? [&#10548;](#java-basics)
 
-##### 12. What type of parameter passing does Java support? [&#10548;](#java-basics)
+12. ##### What type of parameter passing does Java support? [&#10548;](#java-basics)
 
-Java passed all parameters by values. The references to objects are passed by values.
+  Java passed all parameters by values. The references to objects are passed by values.
 
-##### 13. Give a simplest way to find out the time a method takes for execution without using any profiling tool? [&#10548;](#java-basics)
-System.currentTimeMillis() in the beginning and end of the method
+13. ##### Give a simplest way to find out the time a method takes for execution without using any profiling tool? [&#10548;](#java-basics)
+  System.currentTimeMillis() in the beginning and end of the method
 
-##### 14. Is Empty .java file a valid source file? [&#10548;](#java-basics)
+14. ##### Is Empty .java file a valid source file? [&#10548;](#java-basics)
+  Yes it is.
 
-Yes it is.
+15. ##### Can a .java file contain more than one java classes? [&#10548;](#java-basics)
+  Yes it can. It has to contain only one top level public java class but it can contain any number of inner, anonymous and top level classes with default access modifier.
 
-##### 15. Can a .java file contain more than one java classes? [&#10548;](#java-basics)
+16. ##### Is String a primitive data type in Java? [&#10548;](#java-basics)
+  No. String is an Object. An immutable one.
 
-Yes it can. It has to contain only one top level public java class but it can contain any number of inner, anonymous and top level classes with default access modifier.
+17. ##### What happens if you dont initialize an instance variable of any of the primitive types in Java? [&#10548;](#java-basics)
+  It gets assigned the default value. 0 for int and long, 0.0 for float and double, false for boolean. Though I tried to compile a class where variables were not initialized and it didn't compile.
 
-##### 16. Is String a primitive data type in Java? [&#10548;](#java-basics)
+18. ##### What are the different scopes for Java variables? [&#10548;](#java-basics)
+  static fields, instance fields, method parameters, local variables
 
-No. String is an Object. An immutable one.
+19. ##### What is the default value of the local variables? [&#10548;](#java-basics)
+  No default value. Default values are assigned to instance fields. Local variables have to be explicitly initialized.
 
-##### 17. What happens if you dont initialize an instance variable of any of the primitive types in Java? [&#10548;](#java-basics)
+20. ##### Does garbage collection guarantee that a program will not run out of memory? [&#10548;](#java-basics)
+  No.
 
-It gets assigned the default value. 0 for int and long, 0.0 for float and double, false for boolean. Though I tried to compile a class where variables were not initialized and it didn't compile.
+21. ##### What is the purpose of finalization? [&#10548;](#java-basics)
+  Free up the resources. (e.g. close connections and streams, release a lock etc)
 
-##### 18. What are the different scopes for Java variables? [&#10548;](#java-basics)
+22. ##### Can a public class MyClass be defined in a source file named YourClass.java? [&#10548;](#java-basics)
+  No. Unless it is a nested class public class.
 
-static fields, instance fields, method parameters, local variables
+23. ##### What will be the output of the following statement? System.out.println ("1" ** + 3); [&#10548;](#java-basics)
+  13
 
-##### 19. What is the default value of the local variables? [&#10548;](#java-basics)
+24. ##### What will be the default values of all the elements of an array defined as an instance variable? [&#10548;](#java-basics)
+  All elements will be initialized to default value of corresponding type.
 
-No default value. Default values are assigned to instance fields. Local variables have to be explicitly initialized.
-
-##### 20. Does garbage collection guarantee that a program will not run out of memory? [&#10548;](#java-basics)
-
-No.
-
-##### 21. What is the purpose of finalization? [&#10548;](#java-basics)
-
-Free up the resources. (e.g. close connections and streams, release a lock etc)
-
-##### 22. Can a public class MyClass be defined in a source file named YourClass.java? [&#10548;](#java-basics)
-
-No. Unless it is a nested class public class.
-
-##### 23. What will be the output of the following statement? System.out.println ("1" ** + 3); [&#10548;](#java-basics)
-
-13
-
-##### 24. What will be the default values of all the elements of an array defined as an instance variable? [&#10548;](#java-basics)
-
-All elements will be initialized to default value of corresponding type.
-
-##### 25. Length in bytes for primitive types [&#10548;](#java-basics)
+25. ##### Length in bytes for primitive types [&#10548;](#java-basics)
 
 | Primitive type| length in bytes  | Comment                                 |
 | :------------ |:----------------:| ---------------------------------------:|
@@ -186,7 +175,7 @@ All elements will be initialized to default value of corresponding type.
 | float         | 4 bytes          |                                         |
 | double        | 8 bytes          |                                         |
 
-##### 26. Contract between equals() and hashCode() [&#10548;](#java-basics)
+26. ##### Contract between equals() and hashCode() [&#10548;](#java-basics)
 
 if a.equals(b) returns true then a.hashCode() == b.hashCode() is also true. Note that equal hashCode doesn't mean anything.
 
