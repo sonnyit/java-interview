@@ -14,13 +14,13 @@ List questions:
 1. [What are different type of inner classes?](#what-are-different-type-of-inner-classes-)
 1. [Can a top level class be private or protected?](#can-a-top-level-class-be-private-or-protected-)
 1. [What is the different between declaring a variable and defining a variable?](#what-is-the-different-between-declaring-a-variable-and-defining-a-variable-)
-1. [What type of parameter passing does Java support?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#12-what-type-of-parameter-passing-does-java-support-)
-1. [Give a simplest way to find out the time a method takes for execution without using any profiling tool?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#13-give-a-simplest-way-to-find-out-the-time-a-method-takes-for-execution-without-using-any-profiling-tool-)
-1. [Is Empty .java file a valid source file?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#14-is-empty-java-file-a-valid-source-file-)
-1. [Can a .java file contain more than one java classes?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#15-can-a-java-file-contain-more-than-one-java-classes-)
-1. [Is String a primitive data type in Java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#16-is-string-a-primitive-data-type-in-java-)
-1. [What happens if you dont initialize an instance variable of any of the primitive types in Java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#17-what-happens-if-you-dont-initialize-an-instance-variable-of-any-of-the-primitive-types-in-java-)
-1. [What are the different scopes for Java variables?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#18-what-are-the-different-scopes-for-java-variables-)
+1. [What type of parameter passing does Java support?](#what-type-of-parameter-passing-does-java-support-)
+1. [Give a simplest way to find out the time a method takes for execution without using any profiling tool?](#give-a-simplest-way-to-find-out-the-time-a-method-takes-for-execution-without-using-any-profiling-tool-)
+1. [Is Empty .java file a valid source file?](#is-empty-java-file-a-valid-source-file-)
+1. [Can a .java file contain more than one java classes?](#can-a-java-file-contain-more-than-one-java-classes-)
+1. [Is String a primitive data type in Java?](#is-string-a-primitive-data-type-in-java-)
+1. [What happens if you dont initialize an instance variable of any of the primitive types in Java?](#what-happens-if-you-dont-initialize-an-instance-variable-of-any-of-the-primitive-types-in-java-)
+1. [What are the different scopes for Java variables?](#what-are-the-different-scopes-for-java-variables-)
 1. [What is the default value of the local variables?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#19-what-is-the-default-value-of-the-local-variables-)
 1. [Does garbage collection guarantee that a program will not run out of memory?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#20-does-garbage-collection-guarantee-that-a-program-will-not-run-out-of-memory-)
 1. [What is the purpose of finalization?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#21-what-is-the-purpose-of-finalization-)
@@ -164,16 +164,16 @@ List questions:
 
 25. ##### Length in bytes for primitive types [&#10548;](#java-basics)
 
-| Primitive type| length in bytes  | Comment                                 |
-| :------------ |:----------------:| ---------------------------------------:|
-| boolean       | 1 bit            |  saved as 4 bytes; 1 byte in an array   |
-| char          | 2 bytes          |  unsigned                               |
-| byte          | 1 byte           |                                         |
-| short         | 2 bytes          |                                         |
-| int           | 4 bytes          |                                         |
-| long          | 8 bytes          |                                         |
-| float         | 4 bytes          |                                         |
-| double        | 8 bytes          |                                         |
+  | Primitive type| length in bytes  | Comment                                 |
+  | :------------ |:----------------:| ---------------------------------------:|
+  | boolean       | 1 bit            |  saved as 4 bytes; 1 byte in an array   |
+  | char          | 2 bytes          |  unsigned                               |
+  | byte          | 1 byte           |                                         |
+  | short         | 2 bytes          |                                         |
+  | int           | 4 bytes          |                                         |
+  | long          | 8 bytes          |                                         |
+  | float         | 4 bytes          |                                         |
+  | double        | 8 bytes          |                                         |
 
 26. ##### Contract between equals() and hashCode() [&#10548;](#java-basics)
 
