@@ -70,21 +70,21 @@ List questions:
 
 1. ##### What is the difference between an Interface and an Abstract class? [&#10548;](#java-basics)
 
-An Interface is a Class with no implementation. You can not create an object from an interface as it has no implementation or fields. (Interface can contain only public static final fields)
+  An Interface is a Class with no implementation. You can not create an object from an interface as it has no implementation or fields. (Interface can contain only public static final fields)
 
-An Abstract Class is another type of Class. It may have some methods which have not been implemented (which will be labeled *abstract*), but it may also have some methods which have been implemented. Abstract Class also can not be used to create an object, as some implementation code will be missing. (Abstract class can contain regular class fields)
+  An Abstract Class is another type of Class. It may have some methods which have not been implemented (which will be labeled *abstract*), but it may also have some methods which have been implemented. Abstract Class also can not be used to create an object, as some implementation code will be missing. (Abstract class can contain regular class fields)
 
-An object can only be instantiated based on a full class (not abstract, not an interface). In Java, a class can implement between *zero or many interfaces*, or it can extend *zero or one abstract or concrete class* only.
+  An object can only be instantiated based on a full class (not abstract, not an interface). In Java, a class can implement between *zero or many interfaces*, or it can extend *zero or one abstract or concrete class* only.
 
-***When to use abstract class and interface in Java***
+  ***When to use abstract class and interface in Java***
 
-* An abstract class is good if you think you will plan on using inheritance since it provides a common base class implementation to derived classes.
-* An abstract class is also good if you want to be able to declare non-public members. In an interface, all methods must be public.
-* If you think you will need to add methods in the future, then an abstract class is a better choice. Because if you add new method headings to an interface, then all of the classes that already implement that interface will have to be changed to implement the new methods. That can be quite a hassle.
-* Interfaces are a good choice when you think that the API will not change for a while.
-* Interfaces are also good when you want to have something similar to multiple inheritance, since you can implement multiple interfaces.
+  * An abstract class is good if you think you will plan on using inheritance since it provides a common base class implementation to derived classes.
+  * An abstract class is also good if you want to be able to declare non-public members. In an interface, all methods must be public.
+  * If you think you will need to add methods in the future, then an abstract class is a better choice. Because if you add new method headings to an interface, then all of the classes that already implement that interface will have to be changed to implement the new methods. That can be quite a hassle.
+  * Interfaces are a good choice when you think that the API will not change for a while.
+  * Interfaces are also good when you want to have something similar to multiple inheritance, since you can implement multiple interfaces.
 
-***References:*** [programmerinterview](http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/), [other](https://github.com/snowdream/115-Java-Interview-Questions-and-Answers/blob/master/en/general.md#9-what-is-the-difference-between-an-interface-and-an-abstract-class-)
+  ***References:*** [programmerinterview](http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/), [other](https://github.com/snowdream/115-Java-Interview-Questions-and-Answers/blob/master/en/general.md#9-what-is-the-difference-between-an-interface-and-an-abstract-class-)
 
 2. ##### What is the purpose of garbage collection in Java, and when is it used? [&#10548;](#java-basics)
 
