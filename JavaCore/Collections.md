@@ -1,7 +1,7 @@
 Collections
 ---
 
-###1. Draw Collections Framework Class Diagram
+### 1. Draw Collections Framework Class Diagram
 
     interface Iterable
     interface Collection extends Iterable
@@ -15,7 +15,7 @@ Collections
     classes HashMap, WeakHashMap, LinkedHashMap implement Map
     class TreeMap implements SortedMap
     utility classes Collections and Arrays
-    
+
 ###2. What is HashMap and Map?
 
 ***Map*** -- is a interface. Contains methods to manipulate Key-Value based collections. The main methods of Map interface are put(K,V), get(K), Collection<V> values(), Set<K> keySet(), containsKey(), containsValue()
@@ -27,7 +27,7 @@ Collections
 Both implement Map interface. HashTable is synchronized. It is recommended to use HashMap wherever possible. HashTable doesn't allow null keys and values. HashMap allows one null key and any number of null values.
 
 We can make it synchronized
-	
+
 	Map m = Collections.synchronizedMap(new HashMap());
 
 ###4. Difference between Vector and ArrayList?
@@ -48,7 +48,7 @@ All three are interfaces.
 
 ***List*** -- storing values in specified order.
 
-* Provides methods to get the element by its position: get(i), finding element, ListIterator. 
+* Provides methods to get the element by its position: get(i), finding element, ListIterator.
 * Known implementations: ArrayList, Vector, LinkedList. List should be used when the order in which the elements are stored matters.
 
 ***Set*** -- storing only different objects and at most one null element.
