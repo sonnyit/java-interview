@@ -21,50 +21,54 @@ List questions:
 1. [Is String a primitive data type in Java?](#is-string-a-primitive-data-type-in-java-)
 1. [What happens if you dont initialize an instance variable of any of the primitive types in Java?](#what-happens-if-you-dont-initialize-an-instance-variable-of-any-of-the-primitive-types-in-java-)
 1. [What are the different scopes for Java variables?](#what-are-the-different-scopes-for-java-variables-)
-1. [What is the default value of the local variables?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#19-what-is-the-default-value-of-the-local-variables-)
-1. [Does garbage collection guarantee that a program will not run out of memory?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#20-does-garbage-collection-guarantee-that-a-program-will-not-run-out-of-memory-)
-1. [What is the purpose of finalization?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#21-what-is-the-purpose-of-finalization-)
-1. [Can a public class MyClass be defined in a source file named YourClass.java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#22-can-a-public-class-myclass-be-defined-in-a-source-file-named-yourclassjava-)
-1. [What will be the output of the following statement? System.out.println ("1" ** + 3);](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#23-what-will-be-the-output-of-the-following-statement-systemoutprintln-1---3-)
-1. [What will be the default values of all the elements of an array defined as an instance variable?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#24-what-will-be-the-default-values-of-all-the-elements-of-an-array-defined-as-an-instance-variable-)
-1. [Length in bytes for primitive types](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#25-length-in-bytes-for-primitive-types-)
-1. [Contract between equals() and hashCode()](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#26-contract-between-equals-and-hashcode-)
-1. [What different between StringBuffer and StringBuilder?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#27-what-different-between-stringbuffer-and-stringbuilder-)
-1. [What internal methods of String do you know?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#28-what-internal-methods-of-string-do-you-know-)
-1. [Purpose, types, and creation of nested classes?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#29-purpose-types-and-creation-of-nested-classes-)
-1. [What does it mean that an object or a class is mutable or immutable?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#30-what-does-it-mean-that-an-object-or-a-class-is-mutable-or-immutable-)
-1. [Is it enough to define this class as final? To make this class immutable?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#31-is-it-enough-to-define-this-class-as-final-to-make-this-class-immutable-)
-1. [Besides “String” do you know any other immutable classes?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#32-besides-string-do-you-know-any-other-immutable-classes-)
-1. [Increasing/decreasing of methods visibility (inheritance)](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#33-increasingdecreasing-of-methods-visibility-inheritance-)
-1. [You need to create the string, which contains 1,000,000 random numbers, comma separated. How would you do that, considering performance?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#34-you-need-to-create-the-string-which-contains-1000000-random-numbers-comma-separated-how-would-you-do-that-considering-performance-)
-1. [Garbage collection principle?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#35-garbage-collection-principle-)
-1. [How is the virtual space divided in Java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#36-how-is-the-virtual-space-divided-in-java-)
-1. [What difference between float and BigDecimal. How they store the data?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#37-what-difference-between-float-and-bigdecimal-how-they-store-the-data-)
-1. [What is deep copy of Java object?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#38-what-is-deep-copy-of-java-object-)
-1. [How and in what cases we need to configure size of memory areas in Java?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#39-how-and-in-what-cases-we-need-to-configure-size-of-memory-areas-in-java-)
-1. [What is an Object and how do you allocate memory to it?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#40-what-is-an-object-and-how-do-you-allocate-memory-to-it-)
-1. [What are methods and how are they defined?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#41-what-are-methods-and-how-are-they-defined-)
-1. [What is casting?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#42-what-is-casting-)
-1. [What is the difference between an argument and a parameter?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#43-what-is-the-difference-between-an-argument-and-a-parameter-)
-1. [What is final, finalize() and finally?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#44-what-is-final-finalize-and-finally-)
-1. [What is UNICODE?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#45-what-is-unicode-)
-1. [What are Transient and Volatile Modifiers?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#46-what-are-transient-and-volatile-modifiers-)
-1. [What is the difference between overloading and overriding?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#47-what-is-the-difference-between-overloading-and-overriding-)
-1. [What is meant by Inheritance and what are its advantages?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#48-what-is-meant-by-inheritance-and-what-are-its-advantages-)
-1. [What is the difference between this() and super()?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#49-what-is-the-difference-between-this-and-super-)
-1. [What modifiers may be used with top-level class?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#50-what-modifiers-may-be-used-with-top-level-class-)
-1. [What is a package?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#51-what-is-a-package-)
-1. [What is the difference between Integer and int?](https://github.com/sonnyit/java-interview-prepare/blob/master/JavaCore/JavaBasic.md#what-is-the-difference-between-integer-and-int-)
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
-1. []()
+1. [What is the default value of the local variables?](#what-is-the-default-value-of-the-local-variables-)
+1. [Does garbage collection guarantee that a program will not run out of memory?](#does-garbage-collection-guarantee-that-a-program-will-not-run-out-of-memory-)
+1. [What is the purpose of finalization?](#what-is-the-purpose-of-finalization-)
+1. [Can a public class MyClass be defined in a source file named YourClass.java?](#can-a-public-class-myclass-be-defined-in-a-source-file-named-yourclassjava-)
+1. [What will be the output of the following statement? System.out.println ("1" ** + 3);](#what-will-be-the-output-of-the-following-statement-systemoutprintln-1---3-)
+1. [What will be the default values of all the elements of an array defined as an instance variable?](#what-will-be-the-default-values-of-all-the-elements-of-an-array-defined-as-an-instance-variable-)
+1. [Length in bytes for primitive types](#length-in-bytes-for-primitive-types-)
+1. [Contract between equals() and hashCode()](#contract-between-equals-and-hashcode-)
+1. [What different between StringBuffer and StringBuilder?](#what-different-between-stringbuffer-and-stringbuilder-)
+1. [What internal methods of String do you know?](#what-internal-methods-of-string-do-you-know-)
+1. [Purpose, types, and creation of nested classes?](#purpose-types-and-creation-of-nested-classes-)
+1. [What does it mean that an object or a class is mutable or immutable?](#what-does-it-mean-that-an-object-or-a-class-is-mutable-or-immutable-)
+1. [Is it enough to define this class as final? To make this class immutable?](#is-it-enough-to-define-this-class-as-final-to-make-this-class-immutable-)
+1. [Besides “String” do you know any other immutable classes?](#besides-string-do-you-know-any-other-immutable-classes-)
+1. [Increasing/decreasing of methods visibility (inheritance)](#increasingdecreasing-of-methods-visibility-inheritance-)
+1. [You need to create the string, which contains 1,000,000 random numbers, comma separated. How would you do that, considering performance?](#you-need-to-create-the-string-which-contains-1000000-random-numbers-comma-separated-how-would-you-do-that-considering-performance-)
+1. [Garbage collection principle?](#garbage-collection-principle-)
+1. [How is the virtual space divided in Java?](#how-is-the-virtual-space-divided-in-java-)
+1. [What difference between float and BigDecimal. How they store the data?](#what-difference-between-float-and-bigdecimal-how-they-store-the-data-)
+1. [What is deep copy of Java object?](#what-is-deep-copy-of-java-object-)
+1. [How and in what cases we need to configure size of memory areas in Java?](#how-and-in-what-cases-we-need-to-configure-size-of-memory-areas-in-java-)
+1. [What is an Object and how do you allocate memory to it?](#what-is-an-object-and-how-do-you-allocate-memory-to-it-)
+1. [What are methods and how are they defined?](#what-are-methods-and-how-are-they-defined-)
+1. [What is casting?](#what-is-casting-)
+1. [What is the difference between an argument and a parameter?](#what-is-the-difference-between-an-argument-and-a-parameter-)
+1. [What is final, finalize() and finally?](#what-is-final-finalize-and-finally-)
+1. [What is UNICODE?](#what-is-unicode-)
+1. [What are Transient and Volatile Modifiers?](#what-are-transient-and-volatile-modifiers-)
+1. [What is the difference between overloading and overriding?](#what-is-the-difference-between-overloading-and-overriding-)
+1. [What is meant by Inheritance and what are its advantages?](#what-is-meant-by-inheritance-and-what-are-its-advantages-)
+1. [What is the difference between this() and super()?](#what-is-the-difference-between-this-and-super-)
+1. [What modifiers may be used with top-level class?](#what-modifiers-may-be-used-with-top-level-class-)
+1. [What is a package?](#what-is-a-package-)
+1. [What is the difference between Integer and int?](#what-is-the-difference-between-integer-and-int-)
+1. [What is a cloneable interface and how many methods does it contain?](#what-is-a-cloneable-interface-and-how-many-methods-does-it-contain-)
+1. [Can you have an inner class inside a method and what variables can you access?](#can-you-have-an-inner-class-inside-a-method-and-what-variables-can-you-access-)
+1. [What is the difference between static and non-static variables?](#what-is-the-difference-between-static-and-non-static-variables-)
+1. [How does Java handle integer overflows and underflows?](#how-does-java-handle-integer-overflows-and-underflows-)
+
+Main methods:
+1. [Can an application have multi classes having main method?](#can-an-application-have-multi-classes-having-main-method-)
+1. [Can I have multiple main methods in the same class?](#can-i-have-multiple-main-methods-in-the-same-class-)
+1. [What if the main method is declared as private?](#what-if-the-main-method-is-declared-as-private-)
+1. [What if the static modifier is removed from the signature of the main method?](#what-if-the-static-modifier-is-removed-from-the-signature-of-the-main-method-)
+1. [What if I do not provide the String array as the argument to the method?](#what-if-i-do-not-provide-the-string-array-as-the-argument-to-the-method-)
+1. [What is the first argument of the String array in main method?](#what-is-the-first-argument-of-the-string-array-in-main-method-)
+1. [If I do not provide any arguments on the command line, then the String array of Main method will be empty or null?](#if-i-do-not-provide-any-arguments-on-the-command-line-then-the-string-array-of-main-method-will-be-empty-or-null-)
+1. [Can main method be declared final?](#can-main-method-be-declared-final-)
 
 ---
 
@@ -176,211 +180,176 @@ List questions:
   | double        | 8 bytes          |                                         |
 
 26. ##### Contract between equals() and hashCode() [&#10548;](#java-basics)
+  if a.equals(b) returns true then a.hashCode() == b.hashCode() is also true. Note that equal hashCode doesn't mean anything.
 
-if a.equals(b) returns true then a.hashCode() == b.hashCode() is also true. Note that equal hashCode doesn't mean anything.
-
-##### 27. What different between StringBuffer and StringBuilder? [&#10548;](#java-basics)
-
-StringBuilder -- new. StringBuffer -- old. StringBuffer -- synchronized. Where possible use StringBuilder.
+27. ##### What different between StringBuffer and StringBuilder? [&#10548;](#java-basics)
+  StringBuilder -- new. StringBuffer -- old. StringBuffer -- synchronized. Where possible use StringBuilder.
 Both represent mutable sequence of characters.
 
-##### 28. What internal methods of String do you know? [&#10548;](#java-basics)
+28. ##### What internal methods of String do you know? [&#10548;](#java-basics)
+  static methods of String class: valueOf, indexOf, lastIndexOf, replace, contains, startsWith, endsWith, substring, matches, split, equals, isEmpty
 
-static methods of String class: valueOf, indexOf, lastIndexOf, replace, contains, startsWith, endsWith, substring, matches, split, equals, isEmpty
+29. ##### Purpose, types, and creation of nested classes? [&#10548;](#java-basics)
 
-##### 29. Purpose, types, and creation of nested classes? [&#10548;](#java-basics)
+30. ##### What does it mean that an object or a class is mutable or immutable? [&#10548;](#java-basics)
+  Immutability: the state of the object doesn't change
 
-##### 30. What does it mean that an object or a class is mutable or immutable? [&#10548;](#java-basics)
+31. ##### Is it enough to define this class as final? To make this class immutable? [&#10548;](#java-basics)
+  No. If the class is declared final it only means that it cannot be subclassed.
 
-Immutability: the state of the object doesn't change
+  If the instance of the class is declared to be final it only means that the reference will not change.
 
-##### 31. Is it enough to define this class as final? To make this class immutable? [&#10548;](#java-basics)
+  The inner state of the object in both cases can change.
 
-No. If the class is declared final it only means that it cannot be subclassed.
+32. ##### Besides “String” do you know any other immutable classes? [&#10548;](#java-basics)
 
-If the instance of the class is declared to be final it only means that the reference will not change.
+33. ##### Increasing/decreasing of methods visibility (inheritance) [&#10548;](#java-basics)
+  The main rule is that visibility cannot be reduced in the subclass
 
-The inner state of the object in both cases can change.
+  ***References:*** [stackoverflow](http://stackoverflow.com/questions/6851612/java-access-modifiers-and-overriding-methods)
 
-##### 32. Besides “String” do you know any other immutable classes? [&#10548;](#java-basics)
+34. ##### You need to create the string, which contains 1,000,000 random numbers, comma separated. How would you do that, considering performance? [&#10548;](#java-basics)
+  I would use StringBuilder class
 
-##### 33. Increasing/decreasing of methods visibility (inheritance) [&#10548;](#java-basics)
+35. ##### Garbage collection principle? [&#10548;](#java-basics)
+  The garbage collector first performs a task called marking. The garbage collector traverses the application graph, starting with the root objects; those are objects that are represented by all active stack frames and all the static variables loaded into the system.
 
-The main rule is that visibility cannot be reduced in the subclass
+  Each object the garbage collector meets is marked as being used, and will not be deleted in the sweeping stage. The sweeping stage is where the deletion of objects take place.
 
-***References:*** [stackoverflow](http://stackoverflow.com/questions/6851612/java-access-modifiers-and-overriding-methods)
+36. ##### How is the virtual space divided in Java? [&#10548;](#java-basics)
+  [stackoverflow](http://stackoverflow.com/questions/1262328/how-is-the-java-memory-pool-divided)
 
-##### 34. You need to create the string, which contains 1,000,000 random numbers, comma separated. How would you do that, considering performance? [&#10548;](#java-basics)
+  [oracle_java6](http://docs.oracle.com/javase/6/docs/technotes/guides/management/jconsole.html)
 
-I would use StringBuilder class
+37. ##### What difference between float and BigDecimal. How they store the data? [&#10548;](#java-basics)
+  *float* is floating point number and can loose precision during the computations.
 
-##### 35. Garbage collection principle? [&#10548;](#java-basics)
+  *BigDeciamal* is fixed point number. The computations (which type of computations?) are guaranteed to maintain the needed precision.
 
-The garbage collector first performs a task called marking. The garbage collector traverses the application graph, starting with the root objects; those are objects that are represented by all active stack frames and all the static variables loaded into the system.
+  Internally BigDecimal consists of an arbitrary precision integer unscaled value and a 32-bit integer scale
 
-Each object the garbage collector meets is marked as being used, and will not be deleted in the sweeping stage. The sweeping stage is where the deletion of objects take place.
+  If no rounding mode is specified and the exact result cannot be represented, an exception is thrown
 
-##### 36. How is the virtual space divided in Java? [&#10548;](#java-basics)
+38. ##### What is deep copy of Java object? [&#10548;](#java-basics)
+  Deep copy creates a copy of the object including deep copies of all its fields.
 
- [stackoverflow](http://stackoverflow.com/questions/1262328/how-is-the-java-memory-pool-divided)
+39. ##### How and in what cases we need to configure size of memory areas in Java? [&#10548;](#java-basics)
+  In case of getting OutOfMemoryError: Java heap space. What other cases?
 
- [oracle_java6](http://docs.oracle.com/javase/6/docs/technotes/guides/management/jconsole.html)
+  >JVM parameter -Xmx#####m where ##### is number of megabytes you need for the JVM.
+  >
+  >-Xms#####m to set the initial heap size
 
-##### 37. What difference between float and BigDecimal. How they store the data? [&#10548;](#java-basics)
+  More info on this topic can be found here: <http://blog.codecentric.de/en/2011/03/java-memory-configuration-and-monitoring-3rd-act/>
 
-float is floating point number and can loose precision during the computations.
+40. ##### What is an Object and how do you allocate memory to it? [&#10548;](#java-basics)
 
-BigDeciamal is fixed point number. The computations (which type of computations?) are guaranteed to maintain the needed precision.
+41. ##### What are methods and how are they defined? [&#10548;](#java-basics)
 
-Internally BigDecimal consists of an arbitrary precision integer unscaled value and a 32-bit integer scale
+42. ##### What is casting? [&#10548;](#java-basics)
+  changing the type of the object.
 
-If no rounding mode is specified and the exact result cannot be represented, an exception is thrown
+43. ##### What is the difference between an argument and a parameter? [&#10548;](#java-basics)
+  parameter -- abstract. argument -- concrete value of the parameter.
 
-##### 38. What is deep copy of Java object? [&#10548;](#java-basics)
+  parameters of the function are defined when the function is declared.
 
-Deep copy creates a copy of the object including deep copies of all its fields.
+  arguments of the function are defined when it is called.
 
-##### 39. How and in what cases we need to configure size of memory areas in Java? [&#10548;](#java-basics)
+44. ##### What is final, finalize() and finally? [&#10548;](#java-basics)
+  final -- Java keyword
 
-In case of getting OutOfMemoryError: Java heap space. What other cases?
+  finalize() -- gets called before the object is GC-ed
 
-JVM parameter -Xmx#####m where ##### is number of megabytes you need for the JVM.
+  finally -- Java keyword used in exception handling
 
--Xms#####m to set the initial heap size
+45. ##### What is UNICODE? [&#10548;](#java-basics)
+  See info on Unicode here http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/Character.html
 
-More info on this topic can be found here: <http://blog.codecentric.de/en/2011/03/java-memory-configuration-and-monitoring-3rd-act/>
+46. ##### What are Transient and Volatile Modifiers? [&#10548;](#java-basics)
+  Transient signifies that the field is not part of the object state (e.g. it's some derieved value or some cache). Transient fields are not present in serialized representation of the object.
 
-##### 40. What is an Object and how do you allocate memory to it? [&#10548;](#java-basics)
+  If field is declared with volatile keyword then any thread that reads the field will see the most recently written value [Effective Java Item 66]
 
-##### 41. What are methods and how are they defined? [&#10548;](#java-basics)
+47. ##### What is the difference between overloading and overriding? [&#10548;](#java-basics)
+  ***overloading*** -- adding a method with the same name but different signature
+  * Method overloading in Java occurs when two or more methods in the same class have the exact same name but different parameters.
+  * Overloading happens at compile time
 
-##### 42. What is casting? [&#10548;](#java-basics)
+  ***overriding*** -- changing the method implementation in the subclass
+  * An overridden method would have the exact same method name, return type, number of parameters and types of parameters as the method in parent class.
+  * The only difference would be the defination of the method.
 
-changing the type of the object.
+48. ##### What is meant by Inheritance and what are its advantages? [&#10548;](#java-basics)
+  Inheritance is one of principles of OOP. It allows to create class hierarchies.
 
+  Classes can inherit methods and properties from the base classes thus increasing code reuse.
 
-##### 43. What is the difference between an argument and a parameter? [&#10548;](#java-basics)
+49. ##### What is the difference between this() and super()? [&#10548;](#java-basics)
+  * this() calls the constructor of current class.
+  * super() calls the superclass constructor
+  * super() has to be the first statement of subclass constructor;
+  * this and super are references to the current object and to current object treated as superclass.
+  * this.new Something() has to be used to create inner classes
 
-parameter -- abstract. argument -- concrete value of the parameter.
+50. ##### What modifiers may be used with top-level class? [&#10548;](#java-basics)
+  only public or default (package-private)
 
-parameters of the function are defined when the function is declared.
+51. ##### What is a package? [&#10548;](#java-basics)
+  In Java package is a mechanism to oragnize classes into modules.
 
-arguments of the function are defined when it is called.
+52. ##### What is the difference between Integer and int? [&#10548;](#java-basics)
+  Integer is a wrapper class for int primitive type.
 
-##### 44. What is final, finalize() and finally? [&#10548;](#java-basics)
+  Integer can be used in generic collections whereas int cannot.
 
-final -- Java keyword
+  Also contains a number of utility methods.
 
-finalize() -- gets called before the object is GC-ed
+53. ##### What is a cloneable interface and how many methods does it contain? [&#10548;](#java-basics)
+  Cloneable -- is a marker interface and it doesn't contain any methods.
 
-finally -- Java keyword used in exception handling
+  It determines the behavior of Object’s protected clone implementation: if a class implements Cloneable, Object’s clone method returns a field-by-field copy of the object; otherwise it throws CloneNotSupportedException
 
-##### 45. What is UNICODE? [&#10548;](#java-basics)
+54. ##### Can you have an inner class inside a method and what variables can you access? [&#10548;](#java-basics)
+  You can create a local or anonymous class inside the method. It can access only final variables.
 
-See info on Unicode here http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/Character.html
+55. ##### What is the difference between static and non-static variables? [&#10548;](#java-basics)
+  1. The way they are initialized. Static are initalized when the class is loaded. Non-static -- when it's instantiated.
 
-##### 46. What are Transient and Volatile Modifiers? [&#10548;](#java-basics)
+  2. Non-static belong to the instance of an object while static are class variables.
 
-Transient signifies that the field is not part of the object state (e.g. it's some derieved value or some cache). Transient fields are not present in serialized representation of the object.
+  3. Static are accessed using ClassName.varName
 
-If field is declared with volatile keyword then any thread that reads the field will see the most recently written value [Effective Java Item 66]
-
-##### 47. What is the difference between overloading and overriding? [&#10548;](#java-basics)
-
-***overloading*** -- adding a method with the same name but different signature
-
-* Method overloading in Java occurs when two or more methods in the same class have the exact same name but different parameters.
-* Overloading happens at compile time
-
-***overriding*** -- changing the method implementation in the subclass
-
-* An overridden method would have the exact same method name, return type, number of parameters and types of parameters as the method in parent class.
-* The only difference would be the defination of the method.
-
-##### 48. What is meant by Inheritance and what are its advantages? [&#10548;](#java-basics)
-
-Inheritance is one of principles of OOP. It allows to create class hierarchies.
-
-Classes can inherit methods and properties from the base classes thus increasing code reuse.
-
-##### 49. What is the difference between this() and super()? [&#10548;](#java-basics)
-
-* this() calls the constructor of current class.
-* super() calls the superclass constructor
-* super() has to be the first statement of subclass constructor;
-* this and super are references to the current object and to current object treated as superclass.
-* this.new Something() has to be used to create inner classes
-
-##### 50. What modifiers may be used with top-level class? [&#10548;](#java-basics)
-
-only public or default (package-private)
-
-##### 51. What is a package? [&#10548;](#java-basics)
-
-In Java package is a mechanism to oragnize classes into modules.
-
-##### 52. What is the difference between Integer and int? [&#10548;](#java-basics)
-
-Integer is a wrapper class for int primitive type.
-
-Integer can be used in generic collections whereas int cannot.
-
-Also contains a number of utility methods.
-
-##### 53. What is a cloneable interface and how many methods does it contain? [&#10548;](#java-basics)
-
-Cloneable -- is a marker interface and it doesn't contain any methods.
-
-It determines the behavior of Object’s protected clone implementation: if a class implements Cloneable, Object’s clone method returns a field-by-field copy of the object; otherwise it throws CloneNotSupportedException
-
-##### 54. Can you have an inner class inside a method and what variables can you access? [&#10548;](#java-basics)
-
-You can create a local or anonymous class inside the method. It can access only final variables.
-
-##### 55. What is the difference between static and non-static variables? [&#10548;](#java-basics)
-
-a) The way they are initialized. Static are initalized when the class is loaded. Non-static -- when it's instantiated.
-
-b) Non-static belong to the instance of an object while static are class variables.
-
-c) Static are accessed using ClassName.varName
-
-##### 56. How does Java handle integer overflows and underflows? [&#10548;](#java-basics)
+56. ##### How does Java handle integer overflows and underflows? [&#10548;](#java-basics)
 
 Main Method
 ---
 
-##### 1. Can an application have multi classes having main method? [&#10548;](#java-basics)
+1. ##### Can an application have multi classes having main method? [&#10548;](#java-basics)
+  Yes, it can. But only one main method can be used as entrance point for the program.
 
-Yes, it can. But only one main method can be used as entrance point for the program.
+2. ##### Can I have multiple main methods in the same class? [&#10548;](#java-basics)
+  No, if you mean `public static void main(String[] args)`.
 
-##### 2. Can I have multiple main methods in the same class? [&#10548;](#java-basics)
+  Yes, if you mean a method with a name "main" and any other signatures.
 
-No, if you mean `public static void main(String[] args)`.
-Yes, if you mean a method with a name "main" and any other signatures.
+3. ##### What if the main method is declared as private? [&#10548;](#java-basics)
+  The class will compile but the method cannot be used as an entrance point.
 
-##### 3. What if the main method is declared as private? [&#10548;](#java-basics)
+4. ##### What if the static modifier is removed from the signature of the main method? [&#10548;](#java-basics)
+  It become an instance method. No longer an entrance point but just a valid regular method.
 
-The class will compile but the method cannot be used as an entrance point.
+5. ##### What if I do not provide the String array as the argument to the method? [&#10548;](#java-basics)
+  You just define a static method called "main" with no parameters. It cannot be used as entrance point.
 
-##### 4. What if the static modifier is removed from the signature of the main method? [&#10548;](#java-basics)
+6. ##### What is the first argument of the String array in main method? [&#10548;](#java-basics)
+  These are the parameters passed to the program from command line.
 
-It become an instance method. No longer an entrance point but just a valid regular method.
+7. ##### If I do not provide any arguments on the command line, then the String array of Main method will be empty or null? [&#10548;](#java-basics)
+  Array of size 0
 
-##### 5. What if I do not provide the String array as the argument to the method? [&#10548;](#java-basics)
-
-You just define a static method called "main" with no parameters. It cannot be used as entrance point.
-
-##### 6. What is the first argument of the String array in main method? [&#10548;](#java-basics)
-
-These are the parameters passed to the program from command line.
-
-##### 7. If I do not provide any arguments on the command line, then the String array of Main method will be empty or null? [&#10548;](#java-basics)
-
-Array of size 0
-
-##### 8. Can main method be declared final? [&#10548;](#java-basics)
-Yes it can be declared as final
+8. ##### Can main method be declared final? [&#10548;](#java-basics)
+  Yes it can be declared as final
 
 Reference
 ---
