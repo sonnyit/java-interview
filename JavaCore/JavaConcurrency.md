@@ -28,20 +28,20 @@ List questions:
 
 ---
 
-##### 1. Describe synchronization in respect to multi-threading. What is synchronization? [&#10548;](#java-concurrency)
+#### 1. Describe synchronization in respect to multi-threading. What is synchronization? [&#10548;](#java-concurrency)
 
 Several threads access common data.
 
 In order to keep the data in consistent state the access to it has to be synchronized (i.e. some ordering of data access has to be imposed).
 
-##### 2. Explain different ways of using thread? [&#10548;](#java-concurrency)
+#### 2. Explain different ways of using thread? [&#10548;](#java-concurrency)
 
 1. Create a long-running computation in a separate thread so the user interface (or whatever other part of the application) is not blocked.
 2. separate out I/O operations which potentially can take a lot of time (e.g. reading from the network) for the same reason
 3. process incoming requests in parallel (usually using thread pool of some size)
 4. Create thread to do some kind of isolated processing, wait for the processing to finish, kill the thread. Create new threads when needed
 
-##### 3. What is the difference between preemptive scheduling and time slicing? [&#10548;](#java-concurrency)
+#### 3. What is the difference between preemptive scheduling and time slicing? [&#10548;](#java-concurrency)
 
 Not exactly a correct question.
 
