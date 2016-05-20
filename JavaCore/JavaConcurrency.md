@@ -7,6 +7,7 @@ List questions:
 1. [Explain different ways of using thread?](#explain-different-ways-of-using-thread-)
 1. [What is the difference between preemptive scheduling and time slicing?](#what-is-the-difference-between-preemptive-scheduling-and-time-slicing-)
 1. [When a thread is created and started, what is its initial state?](#when-a-thread-is-created-and-started-what-is-its-initial-state-)
+1. [What is a thread local variable in Java?](#what-is-a-thread-local-variable-in-java-)
 1. [Thread vs Runnable, run() vs start()](#thread-vs-runnable-run-vs-start-)
 1. [Describe different ways to create a thread.](#describe-different-ways-to-create-a-thread-)
 1. [Synchronization of Java blocks and methods](#synchronization-of-java-blocks-and-methods-)
@@ -20,7 +21,8 @@ List questions:
 1. [What is daemon thread and which method is used to create the daemon thread?](#what-is-daemon-thread-and-which-method-is-used-to-create-the-daemon-thread-)
 1. [What method must be implemented by all threads?](#what-method-must-be-implemented-by-all-threads-)
 1. [What is the difference between process and thread?](#what-is-the-difference-between-process-and-thread-)
-1. What are the states associated in the thread?
+1. [What is an immutable object? How do you create an Immutable object in Java?](what-is an immutable object? How do you create an Immutable object in Java?)
+1. [What are the states associated in the thread?]()
 1. [When you will synchronize a piece of your code?](#when-you-will-synchronize-a-piece-of-your-code-)
 1. [What is deadlock? Example of deadlock.](#what-is-deadlock-example-of-deadlock-)
 1. [Are there any global variables in Java, which can be accessed by other part of your program?](#are-there-any-global-variables-in-java-which-can-be-accessed-by-other-part-of-your-program-)
@@ -54,6 +56,11 @@ List questions:
 4. ##### When a thread is created and started, what is its initial state? [&#10548;](#java-concurrency)
 
   The thread is then in **"RUNNABLE"** state.
+
+1. ##### What is a thread local variable in Java? [&#10548;](#java-concurrency)
+  Thread-local variables are variables confined to a thread, its like thread's own copy which is not shared between multiple threads. Java provides a ThreadLocal class to support thread-local variables. It's one of the many ways to achieve thread-safety.
+
+  Though be careful while using thread local variable in manged environment e.g. with web servers where worker thread out lives any application variable. Any thread local variable which is not removed once its work is done can potentially cause a memory leak in Java application.
 
 5. ##### Thread vs Runnable, run() vs start() [&#10548;](#java-concurrency)
 
@@ -119,7 +126,10 @@ List questions:
 
 1. ##### What are differences between wait and sleep method in Java? [&#10548;](#java-concurrency)
 
-  Though both are used to pause currently running thread, sleep() is actually meant for short pause because it doesn't release lock, while wait() is meant for conditional wait and that's why it release lock which can then be acquired by another thread to change the condition on which it is waiting
+  Though both are used to pause currently running thread.
+
+  * sleep() is actually meant for short pause because it doesn't release lock.
+  * while wait() is meant for conditional wait and that's why it release lock which can then be acquired by another thread to change the condition on which it is waiting.
 
 9. ##### What does Volatile keyword mean? [&#10548;](#java-concurrency)
 
@@ -200,6 +210,13 @@ List questions:
   From Java documentation: A process has a self-contained execution environment. A process generally has a complete, private set of basic run-time resources; in particular, each process has its own memory space. Most implementations of the Java virtual machine run as a single process
 
   Threads are sometimes called lightweight processes. Both processes and threads provide an execution environment, but creating a new thread requires fewer resources than creating a new process. Threads exist within a process - every process has at least one. Threads share the process's resources, including memory and open files. This makes for efficient, but potentially problematic, communication.
+
+1. ##### What is an immutable object? How do you create an Immutable object in Java? [&#10548;](#java-concurrency)
+  Immutable objects are those whose state cannot be changed once created.
+
+  Any modification will result in a new object e.g. String, Integer, and other wrapper class. Please see the answer for step by step guide to creating Immutable class in Java.
+
+  ***References:*** [javarevisited](http://javarevisited.blogspot.sg/2013/03/how-to-create-immutable-class-object-java-example-tutorial.html)
 
 16. ##### What are the states associated in the thread? [&#10548;](#java-concurrency)
 
