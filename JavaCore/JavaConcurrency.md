@@ -12,6 +12,7 @@ List questions:
 1. [Describe different ways to create a thread.](#describe-different-ways-to-create-a-thread-)
 1. [Synchronization of Java blocks and methods](#synchronization-of-java-blocks-and-methods-)
 1. [Explain usage of the couple wait()/notify()](#explain-usage-of-the-couple-waitnotify-)
+1. [How do you call wait() method? using if block or loop? Why?](#how-do-you-call-wait-method-using-if-block-or-loop-why-)
 1. [What are differences between wait and sleep method in Java?](#what-are-differences-between-wait-and-sleep-method-in-java-)
 1. [What does Volatile keyword mean?](#what-does-volatile-keyword-mean-)
 1. [Difference between synchronized and volatile keyword in Java](#difference-between-synchronized-and-volatile-keyword-in-java-)
@@ -22,6 +23,7 @@ List questions:
 1. [What method must be implemented by all threads?](#what-method-must-be-implemented-by-all-threads-)
 1. [What is the difference between process and thread?](#what-is-the-difference-between-process-and-thread-)
 1. [What is an immutable object? How do you create an Immutable object in Java?](what-is an immutable object? How do you create an Immutable object in Java?)
+1. [Can we create an Immutable object, which contains a mutable object?](#can-we-create-an-immutable-object-which contains-a-mutable-object-)
 1. [What are the states associated in the thread?]()
 1. [When you will synchronize a piece of your code?](#when-you-will-synchronize-a-piece-of-your-code-)
 1. [What is deadlock? Example of deadlock.](#what-is-deadlock-example-of-deadlock-)
@@ -124,6 +126,19 @@ List questions:
   * notify( ) wakes up the a thread (a random one?) that called wait( ) on the same object.
   * notifyAll( ) wakes up all the threads that called wait( ) on the same object.
 
+1. ##### How do you call wait() method? using if block or loop? Why? [&#10548;](#java-concurrency)
+  wait() method should always be called in loop because it's possible that until thread gets CPU to start running again the condition might not hold, so its always better to check condition in loop before proceeding. Here is the standard idiom of using wait and notify method in Java:
+
+  ```
+  // The standard idiom for using the wait method
+  synchronized (obj) {
+     while (condition does not hold)
+        obj.wait(); // (Releases lock, and reacquires on wakeup)
+        ... // Perform action appropriate to condition
+  }
+  ```
+  See [Effective Java Item 69](http://www.amazon.com/dp/0321356683/?tag=javamysqlanta-20) to learn more about why wait method should call in the loop
+
 1. ##### What are differences between wait and sleep method in Java? [&#10548;](#java-concurrency)
 
   Though both are used to pause currently running thread.
@@ -217,6 +232,9 @@ List questions:
   Any modification will result in a new object e.g. String, Integer, and other wrapper class. Please see the answer for step by step guide to creating Immutable class in Java.
 
   ***References:*** [javarevisited](http://javarevisited.blogspot.sg/2013/03/how-to-create-immutable-class-object-java-example-tutorial.html)
+
+1. Can we create an Immutable object, which contains a mutable object? [&#10548;](#java-concurrency)
+  Yes, its possible to create an Immutable object which may contain a mutable object, you just need to be a little bit careful not to share the reference of the mutable component, instead, you should return a copy of it if you have to. Most common example is an Object which contain the reference of java.util.Date object.
 
 16. ##### What are the states associated in the thread? [&#10548;](#java-concurrency)
 
