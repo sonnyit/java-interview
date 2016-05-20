@@ -139,7 +139,7 @@ List questions:
 
   ***More details:*** : [javarevisited](http://javarevisited.blogspot.com/2011/06/volatile-keyword-java-example-tutorial.html) (\*) , [dzone](https://dzone.com/articles/java-multi-threading-volatile-variables-happens-be-1)(\*), [mechanical-sympathy](http://mechanical-sympathy.blogspot.fr/2013/02/cpu-cache-flushing-fallacy.html), [jpbempel](http://jpbempel.blogspot.fr/2012/10/volatile.html), [java67](http://java67.blogspot.com/2012/08/what-is-volatile-variable-in-java-when.html)
 
-10. ##### Difference between synchronized and volatile keyword in Java?
+10. ##### Difference between synchronized and volatile keyword in Java? [&#10548;](#java-concurrency)
 
   Remember volatile is not a replacement of synchronized keyword but can be used as an alternative in certain cases. Here are few differences between volatile and synchronized keyword in Java.
 
