@@ -11,6 +11,7 @@ List questions:
 1. [Describe different ways to create a thread.](#describe-different-ways-to-create-a-thread-)
 1. [Synchronization of Java blocks and methods](#synchronization-of-java-blocks-and-methods-)
 1. [Explain usage of the couple wait()/notify()](#explain-usage-of-the-couple-waitnotify-)
+1. [What are differences between wait and sleep method in Java?](#what-are-differences-between-wait-and-sleep-method-in-java-)
 1. [What does Volatile keyword mean?](#what-does-volatile-keyword-mean-)
 1. [Difference between synchronized and volatile keyword in Java](#difference-between-synchronized-and-volatile-keyword-in-java-)
 1. [java.util.concurrent.* , what utils do you know?](#javautilconcurrent--what-utils-do-you-know-)
@@ -116,6 +117,10 @@ List questions:
   * notify( ) wakes up the a thread (a random one?) that called wait( ) on the same object.
   * notifyAll( ) wakes up all the threads that called wait( ) on the same object.
 
+1. ##### What are differences between wait and sleep method in Java? [&#10548;](#java-concurrency)
+
+  Though both are used to pause currently running thread, sleep() is actually meant for short pause because it doesn't release lock, while wait() is meant for conditional wait and that's why it release lock which can then be acquired by another thread to change the condition on which it is waiting
+
 9. ##### What does Volatile keyword mean? [&#10548;](#java-concurrency)
 
   We typically use volatile keyword when we share variables with more than one thread in a multi-threaded environment, and we want to avoid any memory inconsistency errors due to the caching of these variables in the CPU cache.
@@ -137,7 +142,7 @@ List questions:
   * You want to save the cost of synchronization as volatile variables are less expensive than synchronization.
   * Another place where a volatile variable can be used is to fixing double checked locking in Singleton pattern
 
-  ***More details:*** : [javarevisited](http://javarevisited.blogspot.com/2011/06/volatile-keyword-java-example-tutorial.html) (\*) , [dzone](https://dzone.com/articles/java-multi-threading-volatile-variables-happens-be-1)(\*), [mechanical-sympathy](http://mechanical-sympathy.blogspot.fr/2013/02/cpu-cache-flushing-fallacy.html), [jpbempel](http://jpbempel.blogspot.fr/2012/10/volatile.html), [java67](http://java67.blogspot.com/2012/08/what-is-volatile-variable-in-java-when.html)
+  ***More details*** : [javarevisited](http://javarevisited.blogspot.com/2011/06/volatile-keyword-java-example-tutorial.html) (\*) , [dzone](https://dzone.com/articles/java-multi-threading-volatile-variables-happens-be-1)(\*), [mechanical-sympathy](http://mechanical-sympathy.blogspot.fr/2013/02/cpu-cache-flushing-fallacy.html), [jpbempel](http://jpbempel.blogspot.fr/2012/10/volatile.html), [java67](http://java67.blogspot.com/2012/08/what-is-volatile-variable-in-java-when.html)
 
 10. ##### Difference between synchronized and volatile keyword in Java? [&#10548;](#java-concurrency)
 
