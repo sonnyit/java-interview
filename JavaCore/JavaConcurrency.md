@@ -12,6 +12,7 @@ List questions:
 1. [Synchronization of Java blocks and methods](#synchronization-of-java-blocks-and-methods-)
 1. [Explain usage of the couple wait()/notify()](#explain-usage-of-the-couple-waitnotify-)
 1. [What does Volatile keyword mean?](#what-does-volatile-keyword-mean-)
+1. [Difference between synchronized and volatile keyword in Java](#difference-between-synchronized-and-volatile-keyword-in-java-)
 1. [java.util.concurrent.* , what utils do you know?](#javautilconcurrent--what-utils-do-you-know-)
 1. [ThreadLocal, what for are they needed? Does child thread see the value of parent ThreadLocal?](#threadlocal-what-for-are-they-needed-does-child-thread-see-the-value-of-parent-threadlocal-)
 1. [Recommendations to avoid deadlocks.](#recommendations-to-avoid-deadlocks-)
@@ -137,6 +138,24 @@ List questions:
   * Another place where a volatile variable can be used is to fixing double checked locking in Singleton pattern
 
   ***More details:*** : [javarevisited](http://javarevisited.blogspot.com/2011/06/volatile-keyword-java-example-tutorial.html) (\*) , [dzone](https://dzone.com/articles/java-multi-threading-volatile-variables-happens-be-1)(\*), [mechanical-sympathy](http://mechanical-sympathy.blogspot.fr/2013/02/cpu-cache-flushing-fallacy.html), [jpbempel](http://jpbempel.blogspot.fr/2012/10/volatile.html), [java67](http://java67.blogspot.com/2012/08/what-is-volatile-variable-in-java-when.html)
+
+10. ##### Difference between synchronized and volatile keyword in Java?
+
+  Remember volatile is not a replacement of synchronized keyword but can be used as an alternative in certain cases. Here are few differences between volatile and synchronized keyword in Java.
+
+  1. The volatile keyword in Java is a field modifier while synchronized modifies code blocks and methods.
+
+  2. Synchronized obtains and releases the lock on monitor’s Java volatile keyword doesn't require that.
+
+  3. Threads in Java can be blocked for waiting for any monitor in case of synchronized, that is not the case with the volatile keyword in Java.
+
+  4. Synchronized method affects performance more than a volatile keyword in Java.
+
+  5. Since volatile keyword in Java only synchronizes the value of one variable between Thread memory and "main" memory while synchronized synchronizes the value of all variable between thread memory and "main" memory and locks and releases a monitor to boot. Due to this reason synchronized keyword in Java is likely to have more overhead than volatile.
+
+  6. You can not synchronize on the null object but your volatile variable in Java could be null.
+
+  7. From Java 5 writing into a volatile field has the same memory effect as a monitor release, and reading from a volatile field has the same memory effect as a monitor acquire
 
 10. ##### java.util.concurrent.* , what utils do you know? [&#10548;](#java-concurrency)
 
