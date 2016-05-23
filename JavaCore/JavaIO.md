@@ -22,10 +22,15 @@ List questions:
 ---
 
 1. ##### In my Java program, I have three sockets? How many threads I will need to handle that? [&#10548;](#java-io-and-nio)
+
 1. ##### How do you create ByteBuffer in Java? [&#10548;](#java-io-and-nio)
+
 1. ##### How do you write and read from ByteBuffer in Java? [&#10548;](#java-io-and-nio)
+
 1. ##### Is Java BIG endian or LITTLE endian? [&#10548;](#java-io-and-nio)
+
 1. ##### What is the byte order of ByteBuffer? [&#10548;](#java-io-and-nio)
+
 1. ##### The difference between direct buffer and non-direct buffer in Java? [&#10548;](#java-io-and-nio)
 
   [detail](http://javarevisited.blogspot.sg/2015/08/difference-between-direct-non-direct-mapped-bytebuffer-nio-java.html)
