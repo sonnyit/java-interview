@@ -6,7 +6,14 @@ List questions:
 1. [What is the right data type to represent a price in Java?](#what-is-the-right-data-type-to-represent-a-price-in-java-)
 1. [How do you convert bytes to String?](#how-do-you-convert-bytes-to-string-)
 1. [Can we cast an int value into byte variable? what will happen if the value of int is larger than byte?](#can-we-cast-an-int-value-into-byte-variable-what-will-happen-if-the-value-of-int-is-larger-than-byte-)
-1. [There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B;]()
+1. [There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B;](#there-are-two-classes-b-extends-a-and-c-extends-b-can-we-cast-b-into-c-eg-c--c-b-)
+1. [Is ++ operator is thread-safe in Java?]()
+1. [Difference between a = a + b and a += b ?]()
+1. [Can I store a double value in a long variable without casting?]()
+1. [What will this return 3*0.1 == 0.3? true or false?]()
+1. [Which one will take more memory, an int or Integer?]()
+1. [Why is String Immutable in Java?]()
+
 
 ---
 
@@ -18,8 +25,51 @@ List questions:
 
   You can convert bytes to the string using string constructor which accepts byte[], just make sure that right character encoding otherwise platform's default character encoding will be used which may or may not be same.
 
-1. ##### Can we cast an int value into byte variable? what will happen if the value of int is larger than byte?
+1. ##### Can we cast an int value into byte variable? what will happen if the value of int is larger than byte? [&#10548;](#java-basics-2)
 
   Yes, we can cast but int is 32 bit long in java while byte is 8 bit long in java so when you cast an int to byte higher 24 bits are lost and a byte can only hold a value from -128 to 128.
 
-1. ##### There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B;
+1. ##### There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B; [&#10548;](#java-basics-2)
+
+  [answer](http://javarevisited.blogspot.sg/2012/12/what-is-type-casting-in-java-class-interface-example.html)
+
+1. ##### Is ++ operator is thread-safe in Java? [&#10548;](#java-basics-2)
+
+  No it's not a thread safe operator because its involve multiple instructions like reading a value, incriminating it and storing it back into memory which can be overlapped between multiple threads.
+
+1. ##### Difference between a = a + b and a += b ? [&#10548;](#java-basics-2)
+
+  The += operator implicitly cast the result of addition into the type of variable used to hold the result. When you add two integral variable e.g. variable of type byte, short, or int then they are first promoted to int and them addition happens. If result of addition is more than maximum value of a then a + b will give compile time error but a += b will be ok as shown below:
+
+  ```
+  byte a = 127;
+  byte b = 127;
+  b = a + b; // error : cannot convert from int to byte
+  b += a; // ok
+  ```
+
+1. ##### Can I store a double value in a long variable without casting? [&#10548;](#java-basics-2)
+
+  No, you cannot store a double value into a long variable without casting because the range of double is more  that long and you we need to type cast. It's not difficult to answer this question but many developer get it wrong due to confusion on which one is bigger between double and long in Java.
+
+  [detail](http://java67.blogspot.com/2014/11/how-to-convert-double-to-long-in-java-example.html)
+
+1. ##### What will this return 3*0.1 == 0.3? true or false? [&#10548;](#java-basics-2)
+
+  This is one of the really tricky questions. Out of 100, only 5 developers answered this question and only of them have explained the concept correctly. The short answer is false because some floating point numbers can not be represented exactly.
+
+1. ##### Which one will take more memory, an int or Integer? [&#10548;](#java-basics-2)
+
+  An Integer object will take more memory an Integer is the an object and it  store meta data overhead about the object and int is primitive type so its takes less space.
+
+1. ##### Why is String Immutable in Java? [&#10548;](#java-basics-2)
+
+  One of my favorite Java interview question. The String is Immutable in java because java designer thought that string will be heavily used and making it immutable allow some optimization easy sharing same String object between multiple clients. See the link for the more detailed answer. This is a great question for Java programmers with less experience as it gives them food for thought, to think about how things works in Java, what Java designers might have thought when they created String class etc.
+
+  [detail](http://java67.blogspot.sg/2014/01/why-string-class-has-made-immutable-or-final-java.html)
+
+1. ##### Can we use String in the switch case? [&#10548;](#java-basics-2)
+
+  Yes from Java 7 onward we can use String in switch case but it is just syntactic sugar. Internally string hash code is used for the switch. See the detailed answer for more explanation and discussion.
+
+  [detail](http://javarevisited.blogspot.sg/2011/08/string-switch-case-jdk7-example.html)
