@@ -10,17 +10,16 @@ List questions:
 1. [Why is the source file named after the class?](#4-why-is-the-source-file-named-after-the-class-)
 1. [Which class should be compiled first?](#5-which-class-should-be-compiled-first-)
 1. [What are the steps in compiling a class?](#6-what-are-the-steps-in-compiling-a-class-)
-1. [The difference between Serial and Parallel Garbage Collector?]()
-1. [A difference between WeakReference and SoftReference in Java?]()
-1. [How do WeakHashMap works?]()
-1. [What is -XX:+UseCompressedOops JVM option? Why use it?]()
-1. [How do you find if JVM is 32-bit or 64-bit from Java Program?]()
-1. [What is the maximum heap size of 32-bit and 64-bit JVM?]()
-1. [What is the difference between JRE, JDK, JVM and JIT?]()
-1. [Explain Java Heap space and Garbage collection?]()
-1. [How do you find memory usage from Java program? How much percent of the heap is used]()
-1. [What is the difference between stack and heap in Java?]()
-
+1. [The difference between Serial and Parallel Garbage Collector?](#the-difference-between-serial-and-parallel-garbage-collector-)
+1. [A difference between WeakReference and SoftReference in Java?](#a-difference-between-weakreference-and-softreference-in-java-)
+1. [How do WeakHashMap works?](#how-do-weakhashmap-works-)
+1. [What is -XX:+UseCompressedOops JVM option? Why use it?](#what-is--xxusecompressedoops-jvm-option-why-use-it-)
+1. [How do you find if JVM is 32-bit or 64-bit from Java Program?](#how-do-you-find-if-jvm-is-32-bit-or-64-bit-from-java-program-)
+1. [What is the maximum heap size of 32-bit and 64-bit JVM?](#what-is-the-maximum-heap-size-of-32-bit-and-64-bit-jvm-)
+1. [What is the difference between JRE, JDK, JVM and JIT?](#what-is-the-difference-between-jre-jdk-jvm-and-jit-)
+1. [Explain Java Heap space and Garbage collection?](#explain-java-heap-space-and-garbage-collection-)
+1. [How do you find memory usage from Java program? How much percent of the heap is used](#how-do-you-find-memory-usage-from-java-program-how-much-percent-of-the-heap-is-used-)
+1. [What is the difference between stack and heap in Java?](#what-is-the-difference-between-stack-and-heap-in-java-)
 
 ---
 

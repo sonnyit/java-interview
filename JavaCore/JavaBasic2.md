@@ -7,13 +7,13 @@ List questions:
 1. [How do you convert bytes to String?](#how-do-you-convert-bytes-to-string-)
 1. [Can we cast an int value into byte variable? what will happen if the value of int is larger than byte?](#can-we-cast-an-int-value-into-byte-variable-what-will-happen-if-the-value-of-int-is-larger-than-byte-)
 1. [There are two classes B extends A and C extends B, Can we cast B into C e.g. C = (C) B;](#there-are-two-classes-b-extends-a-and-c-extends-b-can-we-cast-b-into-c-eg-c--c-b-)
-1. [Is ++ operator is thread-safe in Java?]()
-1. [Difference between a = a + b and a += b ?]()
-1. [Can I store a double value in a long variable without casting?]()
-1. [What will this return 3*0.1 == 0.3? true or false?]()
-1. [Which one will take more memory, an int or Integer?]()
-1. [Why is String Immutable in Java?]()
-
+1. [Is ++ operator is thread-safe in Java?](#is--operator-is-thread-safe-in-java-)
+1. [Difference between a = a + b and a += b ?](#difference-between-a--a--b-and-a--b--)
+1. [Can I store a double value in a long variable without casting?](#can-i-store-a-double-value-in-a-long-variable-without-casting-)
+1. [What will this return 3*0.1 == 0.3? true or false?](#what-will-this-return-301--03-true-or-false-)
+1. [Which one will take more memory, an int or Integer?](#which-one-will-take-more-memory-an-int-or-integer-)
+1. [Why is String Immutable in Java?](#why-is-string-immutable-in-java-)
+1. [Can we use String in the switch case?](#can-we-use-string-in-the-switch-case-)
 
 ---
 
