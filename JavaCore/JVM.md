@@ -151,4 +151,5 @@ List questions:
   [detail](http://javarevisited.blogspot.com/2013/01/difference-between-stack-and-heap-java.html)
 
 1. ##### [&#10548;](#java-virtual-machine)
+
 1. ##### [&#10548;](#java-virtual-machine)

@@ -8,28 +8,28 @@ List questions:
 1. [What is the different between a constructor and a method?](#what-is-the-different-between-a-constructor-and-a-method-)
 1. [State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.](#state-the-significance-of-public-private-protected-default-modifiers-both-singly-and-in-combination-and-state-the-effect-of-package-relationships-on-declared-items-qualified-by-these-modifiers-)
 1. [What is an abstract class? How is it different from an interface? Why would you use it?](#what-is-an-abstract-class-how-is-it-different-from-an-interface-why-would-you-use-it-)
-1. [Which design pattern have you used in your production code? apart from Singleton?]()
-1. [Can you explain Liskov Substitution principle?]()
-1. [What is Law of Demeter violation? Why it matters?]()
-1. [What is Adapter pattern? When to use it?]()
-1. [What is "dependency injection" and "inversion of control"? Why would someone use it?]()
-1. [Which one is better constructor injection or setter dependency injection?]()
-1. [What is difference between dependency injection and factory design pattern?]()
-1. [Difference between Adapter and Decorator pattern?]()
-1. [Difference between Adapter and Proxy Pattern?]()
-1. [What is Template method pattern?]()
-1. [When do you use Visitor design pattern?]()
-1. [When do you use Composite design pattern?]()
-1. [The difference between Inheritance and Composition?]()
-1. [What is the difference between overloading and overriding]()
+1. [Which design pattern have you used in your production code? apart from Singleton?](#which-design-pattern-have-you-used-in-your-production-code-apart-from-singleton-)
+1. [Can you explain Liskov Substitution principle?](#can-you-explain-liskov-substitution-principle-)
+1. [What is Law of Demeter violation? Why it matters?](#what-is-law-of-demeter-violation-why-it-matters-)
+1. [What is Adapter pattern? When to use it?](#what-is-adapter-pattern-when-to-use-it-)
+1. [What is "dependency injection" and "inversion of control"? Why would someone use it?](#what-is-dependency-injection-and-inversion-of-control-why-would-someone-use-it-)
+1. [Which one is better constructor injection or setter dependency injection?](#which-one-is-better-constructor-injection-or-setter-dependency-injection-)
+1. [What is difference between dependency injection and factory design pattern?](#what-is-difference-between-dependency-injection-and-factory-design-pattern-)
+1. [Difference between Adapter and Decorator pattern?](#difference-between-adapter-and-decorator-pattern-)
+1. [Difference between Adapter and Proxy Pattern?](#difference-between-adapter-and-proxy-pattern-)
+1. [What is Template method pattern?](#what-is-template-method-pattern-)
+1. [When do you use Visitor design pattern?](#when-do-you-use-visitor-design-pattern-)
+1. [When do you use Composite design pattern?](#when-do-you-use-composite-design-pattern-)
+1. [The difference between Inheritance and Composition?](#the-difference-between-inheritance-and-composition-)
+1. [What is the difference between overloading and overriding](#what-is-the-difference-between-overloading-and-overriding-)
 1. [What is meant by Inheritance and what are its advantages?](#what-is-meant-by-inheritance-and-what-are-its-advantages-)
 1. [What is the difference between this() and super()?](#what-is-the-difference-between-this-and-super-)
 1. [What modifiers may be used with top-level class?](#what-modifiers-may-be-used-with-top-level-class-)
-1. [The difference between nested public static class and a top level class in Java?]()
-1. [Difference between Composition, Aggregation and Association in OOP?]()
-1. [Give me an example of design pattern which is based upon open closed principle?]()
-1. [Difference between Abstract factory and Prototype design pattern?]()
-1. [When do you use Flyweight pattern?]()
+1. [The difference between nested public static class and a top level class in Java?](#the-difference-between-nested-public-static-class-and-a-top-level-class-in-java-)
+1. [Difference between Composition, Aggregation and Association in OOP?](#difference-between-composition-aggregation-and-association-in-oop-)
+1. [Give me an example of design pattern which is based upon open closed principle?](#give-me-an-example-of-design-pattern-which-is-based-upon-open-closed-principle-)
+1. [Difference between Abstract factory and Prototype design pattern?](#difference-between-abstract-factory-and-prototype-design-pattern-)
+1. [When do you use Flyweight pattern?](#when-do-you-use-flyweight-pattern-)
 
 ---
 
@@ -52,11 +52,11 @@ List questions:
 
   ***References:*** [programmerinterview](http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/), [javarevisited](http://javarevisited.blogspot.sg/2013/05/difference-between-abstract-class-vs-interface-java-when-prefer-over-design-oops.html),  [other](https://github.com/snowdream/115-Java-Interview-Questions-and-Answers/blob/master/en/general.md#9-what-is-the-difference-between-an-interface-and-an-abstract-class-)
 
-1. ##### What is the different between a constructor and a method? [&#10548;](#java-basics)
+1. ##### What is the different between a constructor and a method? [&#10548;](##oop-and-design-patterns)
 
-1. ##### State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers. [&#10548;](#java-basics)
+1. ##### State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers. [&#10548;](##oop-and-design-patterns)
 
-1. ##### What is an abstract class? How is it different from an interface? Why would you use it? [&#10548;](#java-basics)
+1. ##### What is an abstract class? How is it different from an interface? Why would you use it? [&#10548;](##oop-and-design-patterns)
 
     An abstract class is a java class that has one or more abstract methods (no body). Abstract class can not be instantiated. Abstract class defines an interface that has to be implemented by all its subclasses.
 

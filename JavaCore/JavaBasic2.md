@@ -14,7 +14,7 @@ List questions:
 1. [Which one will take more memory, an int or Integer?](#which-one-will-take-more-memory-an-int-or-integer-)
 1. [Why is String Immutable in Java?](#why-is-string-immutable-in-java-)
 1. [Can we use String in the switch case?](#can-we-use-string-in-the-switch-case-)
-1. [What is a compile time constant in Java? What is the risk of using it?]()
+1. [What is a compile time constant in Java? What is the risk of using it?](#what-is-a-compile-time-constant-in-java-what-is-the-risk-of-using-it-)
 
 ---
 
