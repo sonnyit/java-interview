@@ -14,6 +14,7 @@ List questions:
 1. [Which one will take more memory, an int or Integer?](#which-one-will-take-more-memory-an-int-or-integer-)
 1. [Why is String Immutable in Java?](#why-is-string-immutable-in-java-)
 1. [Can we use String in the switch case?](#can-we-use-string-in-the-switch-case-)
+1. [What is a compile time constant in Java? What is the risk of using it?]()
 
 ---
 
@@ -73,3 +74,7 @@ List questions:
   Yes from Java 7 onward we can use String in switch case but it is just syntactic sugar. Internally string hash code is used for the switch. See the detailed answer for more explanation and discussion.
 
   [detail](http://javarevisited.blogspot.sg/2011/08/string-switch-case-jdk7-example.html)
+
+1. ##### What is a compile time constant in Java? What is the risk of using it? [&#10548;](#java-basics-2)
+
+  public static final variables are also known as a compile time constant, the public is optional there. They are replaced with actual values at compile time because compiler know their value up-front and also knows that it cannot be changed during run-time. One of the problem with this is that if you happened to use a public static final variable from some in-house or third party library and their value changed later than your client will still be using old value even after you deploy a new version of JARs. To avoid that, make sure you compile your program when you upgrade dependency JAR files.

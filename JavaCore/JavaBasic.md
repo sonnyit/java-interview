@@ -3,11 +3,8 @@ Java Basics
 
 List questions:
 
-1. [What is the difference between an Interface and an Abstract class?](#what-is-the-difference-between-an-interface-and-an-abstract-class-)
 1. [What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used-)
-1. [What is the different between a constructor and a method?](#what-is-the-different-between-a-constructor-and-a-method-)
-1. [State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers.](#state-the-significance-of-public-private-protected-default-modifiers-both-singly-and-in-combination-and-state-the-effect-of-package-relationships-on-declared-items-qualified-by-these-modifiers-)
-1. [What is an abstract class?](#what-is-an-abstract-class-)
+
 1. [What is static in java?](#what-is-static-in-java-)
 1. [What is final?](#what-is-final-)
 1. [What is overriding?](#what-is-overriding-)
@@ -29,6 +26,8 @@ List questions:
 1. [What will be the default values of all the elements of an array defined as an instance variable?](#what-will-be-the-default-values-of-all-the-elements-of-an-array-defined-as-an-instance-variable-)
 1. [Length in bytes for primitive types](#length-in-bytes-for-primitive-types-)
 1. [Contract between equals() and hashCode()](#contract-between-equals-and-hashcode-)
+1. [What's the difference between "a == b" and "a.equals(b)"?]()
+1. [What is a.hashCode() used for? How is it related to a.equals(b)?]()
 1. [What different between StringBuffer and StringBuilder?](#what-different-between-stringbuffer-and-stringbuilder-)
 1. [What internal methods of String do you know?](#what-internal-methods-of-string-do-you-know-)
 1. [Purpose, types, and creation of nested classes?](#purpose-types-and-creation-of-nested-classes-)
@@ -49,10 +48,7 @@ List questions:
 1. [What is final, finalize() and finally?](#what-is-final-finalize-and-finally-)
 1. [What is UNICODE?](#what-is-unicode-)
 1. [What are Transient and Volatile Modifiers?](#what-are-transient-and-volatile-modifiers-)
-1. [What is the difference between overloading and overriding?](#what-is-the-difference-between-overloading-and-overriding-)
-1. [What is meant by Inheritance and what are its advantages?](#what-is-meant-by-inheritance-and-what-are-its-advantages-)
-1. [What is the difference between this() and super()?](#what-is-the-difference-between-this-and-super-)
-1. [What modifiers may be used with top-level class?](#what-modifiers-may-be-used-with-top-level-class-)
+
 1. [What is a package?](#what-is-a-package-)
 1. [What is the difference between Integer and int?](#what-is-the-difference-between-integer-and-int-)
 1. [What is a cloneable interface and how many methods does it contain?](#what-is-a-cloneable-interface-and-how-many-methods-does-it-contain-)
@@ -73,35 +69,9 @@ Main methods:
 
 ---
 
-1. ##### What is the difference between an Interface and an Abstract class? [&#10548;](#java-basics)
-
-  An Interface is a Class with no implementation. You can not create an object from an interface as it has no implementation or fields. (Interface can contain only public static final fields)
-
-  An Abstract Class is another type of Class. It may have some methods which have not been implemented (which will be labeled *abstract*), but it may also have some methods which have been implemented. Abstract Class also can not be used to create an object, as some implementation code will be missing. (Abstract class can contain regular class fields)
-
-  An object can only be instantiated based on a full class (not abstract, not an interface). In Java, a class can implement between *zero or many interfaces*, or it can extend *zero or one abstract or concrete class* only.
-
-  ***When to use abstract class and interface in Java***
-
-  * An abstract class is good if you think you will plan on using inheritance since it provides a common base class implementation to derived classes.
-  * An abstract class is also good if you want to be able to declare non-public members. In an interface, all methods must be public.
-  * If you think you will need to add methods in the future, then an abstract class is a better choice. Because if you add new method headings to an interface, then all of the classes that already implement that interface will have to be changed to implement the new methods. That can be quite a hassle.
-  * Interfaces are a good choice when you think that the API will not change for a while.
-  * Interfaces are also good when you want to have something similar to multiple inheritance, since you can implement multiple interfaces.
-
-  ***References:*** [programmerinterview](http://www.programmerinterview.com/index.php/java-questions/interface-vs-abstract-class/), [other](https://github.com/snowdream/115-Java-Interview-Questions-and-Answers/blob/master/en/general.md#9-what-is-the-difference-between-an-interface-and-an-abstract-class-)
-
 2. ##### What is the purpose of garbage collection in Java, and when is it used? [&#10548;](#java-basics)
 
   GC in Java is the mechanism that keeps track of the memory and objects residing in the memory. GC collects the object when it is no longer needed (usually when no references to the object are available).
-
-3. ##### What is the different between a constructor and a method? [&#10548;](#java-basics)
-
-3. ##### State the significance of public, private, protected, default modifiers both singly and in combination and state the effect of package relationships on declared items qualified by these modifiers. [&#10548;](#java-basics)
-
-5. ##### What is an abstract class? [&#10548;](#java-basics)
-
-  An abstract class is a java class that has one or more abstract methods (no body). Abstract class can not be instantiated. Abstract class defines an interface that has to be implemented by all its subclasses.
 
 6. ##### What is static in java? [&#10548;](#java-basics)
   *static* is java language keyword.
@@ -181,7 +151,14 @@ Main methods:
   | double        | 8 bytes          |                                         |
 
 26. ##### Contract between equals() and hashCode() [&#10548;](#java-basics)
-  if a.equals(b) returns true then a.hashCode() == b.hashCode() is also true. Note that equal hashCode doesn't mean anything.
+
+  hashCode() method returns an int hash value corresponding to an object. It's used in hash based collection classes e.g Hashtable, HashMap, LinkedHashMap and so on. It's very tightly related to equals() method. According to Java specification, two objects which are equal to each other using equals() method must have same hash code.
+
+  So, if a.equals(b) returns true then a.hashCode() == b.hashCode() is also true. Note that equal hashCode doesn't mean anything.
+
+1. ##### What's the difference between "a == b" and "a.equals(b)"? [&#10548;](#java-basics)
+
+  The a = b does object reference matching if both a and b are an object and only return true if both are pointing to the same object in the heap space, on the other hand, a.equals(b) is used for logical mapping and its expected from an object to override this method to provide logical equality. For example, String class overrides this equals() method so that you can compare two Strings, which are the different object but contains same letters.
 
 27. ##### What different between StringBuffer and StringBuilder? [&#10548;](#java-basics)
   StringBuilder -- new. StringBuffer -- old. StringBuffer -- synchronized. Where possible use StringBuilder.
@@ -258,11 +235,13 @@ Both represent mutable sequence of characters.
   arguments of the function are defined when it is called.
 
 44. ##### What is final, finalize() and finally? [&#10548;](#java-basics)
-  final -- Java keyword
+  final -- Java keyword, is a modifier which you can apply to variables, methods and classes. If you make a variable final it means its value cannot be changed once initialized.
 
-  finalize() -- gets called before the object is GC-ed
+  finalize() -- is a method, gets called before the object is GC-ed, giving it last chance to resurrect itself, but the call to finalize is not guaranteed.
 
-  finally -- Java keyword used in exception handling
+  finally -- Java keyword used in exception handling along with try and catch. the finally block is always executed irrespective of whether an exception is thrown from try block or not
+
+  [detail](http://javarevisited.blogspot.sg/2012/11/difference-between-final-finally-and-finalize-java.html)
 
 45. ##### What is UNICODE? [&#10548;](#java-basics)
   See info on Unicode here http://docs.oracle.com/javase/1.5.0/docs/api/java/lang/Character.html
@@ -271,30 +250,6 @@ Both represent mutable sequence of characters.
   Transient signifies that the field is not part of the object state (e.g. it's some derieved value or some cache). Transient fields are not present in serialized representation of the object.
 
   If field is declared with volatile keyword then any thread that reads the field will see the most recently written value [Effective Java Item 66]
-
-47. ##### What is the difference between overloading and overriding? [&#10548;](#java-basics)
-  ***overloading*** -- adding a method with the same name but different signature
-  * Method overloading in Java occurs when two or more methods in the same class have the exact same name but different parameters.
-  * Overloading happens at compile time
-
-  ***overriding*** -- changing the method implementation in the subclass
-  * An overridden method would have the exact same method name, return type, number of parameters and types of parameters as the method in parent class.
-  * The only difference would be the defination of the method.
-
-48. ##### What is meant by Inheritance and what are its advantages? [&#10548;](#java-basics)
-  Inheritance is one of principles of OOP. It allows to create class hierarchies.
-
-  Classes can inherit methods and properties from the base classes thus increasing code reuse.
-
-49. ##### What is the difference between this() and super()? [&#10548;](#java-basics)
-  * this() calls the constructor of current class.
-  * super() calls the superclass constructor
-  * super() has to be the first statement of subclass constructor;
-  * this and super are references to the current object and to current object treated as superclass.
-  * this.new Something() has to be used to create inner classes
-
-50. ##### What modifiers may be used with top-level class? [&#10548;](#java-basics)
-  only public or default (package-private)
 
 51. ##### What is a package? [&#10548;](#java-basics)
   In Java package is a mechanism to oragnize classes into modules.
