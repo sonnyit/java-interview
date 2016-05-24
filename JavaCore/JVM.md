@@ -3,13 +3,13 @@ Java Virtual Machine
 
 List questions:
 
-1. [What is a Java Virtual Machine (JVM)?](#1-what-is-a-java-virtual-machine-jvm-)
-1. [Memory Management with JVM?](#2-memory-management-with-jvm-)
-1. [Explain the Difference amongst JVM Specification, JVM Implementation, JVM Runtime?](#3-explain-the-difference-amongst-jvm-specification-jvm-implementation-jvm-runtime-)
-1. [What is the size of int in 64-bit JVM?]()
-1. [Why is the source file named after the class?](#4-why-is-the-source-file-named-after-the-class-)
-1. [Which class should be compiled first?](#5-which-class-should-be-compiled-first-)
-1. [What are the steps in compiling a class?](#6-what-are-the-steps-in-compiling-a-class-)
+1. [What is a Java Virtual Machine (JVM)?](#what-is-a-java-virtual-machine-jvm-)
+1. [Memory Management with JVM?](#memory-management-with-jvm-)
+1. [Explain the Difference amongst JVM Specification, JVM Implementation, JVM Runtime?](#explain-the-difference-amongst-jvm-specification-jvm-implementation-jvm-runtime-)
+1. [What is the size of int in 64-bit JVM?](#what-is-the-size-of-int-in-64-bit-jvm-)
+1. [Why is the source file named after the class?](#why-is-the-source-file-named-after-the-class-)
+1. [Which class should be compiled first?](#which-class-should-be-compiled-first-)
+1. [What are the steps in compiling a class?](#what-are-the-steps-in-compiling-a-class-)
 1. [The difference between Serial and Parallel Garbage Collector?](#the-difference-between-serial-and-parallel-garbage-collector-)
 1. [A difference between WeakReference and SoftReference in Java?](#a-difference-between-weakreference-and-softreference-in-java-)
 1. [How do WeakHashMap works?](#how-do-weakhashmap-works-)

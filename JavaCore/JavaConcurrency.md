@@ -24,7 +24,7 @@ List questions:
 1. [What is the difference between process and thread?](#what-is-the-difference-between-process-and-thread-)
 1. [What is an immutable object? How do you create an Immutable object in Java?](what-is an immutable object? How do you create an Immutable object in Java?)
 1. [Can we create an Immutable object, which contains a mutable object?](#can-we-create-an-immutable-object-which contains-a-mutable-object-)
-1. [What are the states associated in the thread?]()
+1. [What are the states associated in the thread?](#what-are-the-states-associated-in-the-thread-)
 1. [When you will synchronize a piece of your code?](#when-you-will-synchronize-a-piece-of-your-code-)
 1. [What is deadlock? Example of deadlock.](#what-is-deadlock-example-of-deadlock-)
 1. [Are there any global variables in Java, which can be accessed by other part of your program?](#are-there-any-global-variables-in-java-which-can-be-accessed-by-other-part-of-your-program-)

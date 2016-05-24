@@ -4,10 +4,8 @@ Java Basics
 List questions:
 
 1. [What is the purpose of garbage collection in Java, and when is it used?](#what-is-the-purpose-of-garbage-collection-in-java-and-when-is-it-used-)
-
 1. [What is static in java?](#what-is-static-in-java-)
 1. [What is final?](#what-is-final-)
-1. [What is overriding?](#what-is-overriding-)
 1. [What are different type of inner classes?](#what-are-different-type-of-inner-classes-)
 1. [Can a top level class be private or protected?](#can-a-top-level-class-be-private-or-protected-)
 1. [What is the different between declaring a variable and defining a variable?](#what-is-the-different-between-declaring-a-variable-and-defining-a-variable-)
@@ -26,8 +24,7 @@ List questions:
 1. [What will be the default values of all the elements of an array defined as an instance variable?](#what-will-be-the-default-values-of-all-the-elements-of-an-array-defined-as-an-instance-variable-)
 1. [Length in bytes for primitive types](#length-in-bytes-for-primitive-types-)
 1. [Contract between equals() and hashCode()](#contract-between-equals-and-hashcode-)
-1. [What's the difference between "a == b" and "a.equals(b)"?]()
-1. [What is a.hashCode() used for? How is it related to a.equals(b)?]()
+1. [What's the difference between "a == b" and "a.equals(b)"?](#whats-the-difference-between-a--b-and-aequalsb-)
 1. [What different between StringBuffer and StringBuilder?](#what-different-between-stringbuffer-and-stringbuilder-)
 1. [What internal methods of String do you know?](#what-internal-methods-of-string-do-you-know-)
 1. [Purpose, types, and creation of nested classes?](#purpose-types-and-creation-of-nested-classes-)
@@ -48,7 +45,6 @@ List questions:
 1. [What is final, finalize() and finally?](#what-is-final-finalize-and-finally-)
 1. [What is UNICODE?](#what-is-unicode-)
 1. [What are Transient and Volatile Modifiers?](#what-are-transient-and-volatile-modifiers-)
-
 1. [What is a package?](#what-is-a-package-)
 1. [What is the difference between Integer and int?](#what-is-the-difference-between-integer-and-int-)
 1. [What is a cloneable interface and how many methods does it contain?](#what-is-a-cloneable-interface-and-how-many-methods-does-it-contain-)
@@ -69,11 +65,11 @@ Main methods:
 
 ---
 
-2. ##### What is the purpose of garbage collection in Java, and when is it used? [&#10548;](#java-basics)
+1. ##### What is the purpose of garbage collection in Java, and when is it used? [&#10548;](#java-basics)
 
   GC in Java is the mechanism that keeps track of the memory and objects residing in the memory. GC collects the object when it is no longer needed (usually when no references to the object are available).
 
-6. ##### What is static in java? [&#10548;](#java-basics)
+1. ##### What is static in java? [&#10548;](#java-basics)
   *static* is java language keyword.
 
   1. When used with a method defines a method of a class.
@@ -82,8 +78,6 @@ Main methods:
   4. Can be used as a static initialization block.
 
 7. ##### What is final? [&#10548;](#java-basics)
-
-8. ##### What is overriding? [&#10548;](#java-basics)
 
 9. ##### What are different type of inner classes? [&#10548;](#java-basics)
   * nested class
