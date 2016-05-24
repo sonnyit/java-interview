@@ -16,8 +16,8 @@ List questions:
 1. [Can we use String in the switch case?](#can-we-use-string-in-the-switch-case-)
 1. [What is a compile time constant in Java? What is the risk of using it?](#what-is-a-compile-time-constant-in-java-what-is-the-risk-of-using-it-)
 1. [The difference between DOM and SAX parser in Java?](#the-difference-between-dom-and-sax-parser-in-java-)
-1. [Tell me 3 features introduced on JDK 1.7?]()
-1. [Tell me 5 features introduced in JDK 1.8?]()
+1. [Tell me 3 features introduced on JDK 1.7?](#tell-me-3-features-introduced-on-jdk-17-)
+1. [Tell me 5 features introduced in JDK 1.8?](#tell-me-5-features-introduced-in-jdk-18)
 
 ---
 
