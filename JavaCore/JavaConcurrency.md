@@ -16,6 +16,7 @@ List questions:
 1. [What are differences between wait and sleep method in Java?](#what-are-differences-between-wait-and-sleep-method-in-java-)
 1. [What does Volatile keyword mean?](#what-does-volatile-keyword-mean-)
 1. [Difference between synchronized and volatile keyword in Java](#difference-between-synchronized-and-volatile-keyword-in-java-)
+1. [The difference between Serializable and Externalizable in Java?](#the-difference-between-serializable-and-externalizable-in-java-)
 1. [java.util.concurrent.* , what utils do you know?](#javautilconcurrent--what-utils-do-you-know-)
 1. [ThreadLocal, what for are they needed? Does child thread see the value of parent ThreadLocal?](#threadlocal-what-for-are-they-needed-does-child-thread-see-the-value-of-parent-threadlocal-)
 1. [Recommendations to avoid deadlocks.](#recommendations-to-avoid-deadlocks-)
@@ -186,6 +187,14 @@ List questions:
   6. You can not synchronize on the null object but your volatile variable in Java could be null.
 
   7. From Java 5 writing into a volatile field has the same memory effect as a monitor release, and reading from a volatile field has the same memory effect as a monitor acquire
+
+1. ##### The difference between Serializable and Externalizable in Java? [&#10548;](#java-concurrency)
+
+  This is one of the frequently asked questions from Java Serialization. The interviewer has been asking this question since the day Serialization was introduced in Java, but yet only a few good candidate can answer this question with some confidence and practical knowledge.
+
+  Serializable interface is used to make Java classes serializable so that they can be transferred over network or their state can be saved on disk, but it leverages default serialization built-in JVM, which is expensive, fragile and not secure. Externalizable allows you to fully control the Serialization process, specify a custom binary format and add more security measure.
+
+  [detail](http://javarevisited.blogspot.sg/2012/01/serializable-externalizable-in-java.html)
 
 10. ##### java.util.concurrent.* , what utils do you know? [&#10548;](#java-concurrency)
 
