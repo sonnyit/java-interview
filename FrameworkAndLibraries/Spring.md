@@ -38,6 +38,8 @@ List questions:
   The key benefit of DI is loose coupling. If an object only knows about its dependencies by their interface (not by their implementation or how they are instantiated), then the dependency can be swapped out with a different implementation without the depending object knowing the difference.
 
   One of the most common ways that a dependency will be swapped out is with a mock implementation during testing.
+  
+  [a good explain](http://www.javaworld.com/article/2071914/excellent-explanation-of-dependency-injection--inversion-of-control-.html)
 
 1. ##### Explain the Spring Bean-LifeCycle [&#10548;](#spring)
 
